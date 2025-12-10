@@ -1,5 +1,16 @@
 import React from 'react'
 
+interface QuizQuestionProps {
+    questionNumber: number
+    totalQuestions: number
+    question: string
+    answers: string[]
+    selectedAnswer: string | null
+    correctAnswer: string
+    showResult: boolean
+    onAnswerClick: (answer: string) => void
+}
+
 function QuizQuestion({
     questionNumber,
     totalQuestions,
@@ -9,7 +20,7 @@ function QuizQuestion({
     correctAnswer,
     showResult,
     onAnswerClick,
-}) {
+}: QuizQuestionProps) {
     return (
         <div className="question-container">
             <div className="question-number">

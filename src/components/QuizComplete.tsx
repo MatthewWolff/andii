@@ -1,6 +1,12 @@
 import React from 'react'
 
-function QuizComplete({ score, total, onRetry }) {
+interface QuizCompleteProps {
+    score: number
+    total: number
+    onRetry: () => void
+}
+
+function QuizComplete({ score, total, onRetry }: QuizCompleteProps) {
     const getScoreMessage = () => {
         const percentage = (score / total) * 100
         if (percentage >= 90) return "Amazing! You're a Sanrio expert! 🌟"

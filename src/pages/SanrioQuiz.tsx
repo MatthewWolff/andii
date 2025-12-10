@@ -3,16 +3,17 @@ import BackButton from '../components/BackButton'
 import ScoreDisplay from '../components/ScoreDisplay'
 import QuizQuestion from '../components/QuizQuestion'
 import QuizComplete from '../components/QuizComplete'
+import { Question } from '../types/quiz'
 import './SanrioQuiz.css'
 
 function SanrioQuiz() {
-    const [questions, setQuestions] = useState([])
-    const [currentQuestion, setCurrentQuestion] = useState(0)
-    const [score, setScore] = useState(0)
-    const [selectedAnswer, setSelectedAnswer] = useState(null)
-    const [showResult, setShowResult] = useState(false)
-    const [quizComplete, setQuizComplete] = useState(false)
-    const [shuffledAnswers, setShuffledAnswers] = useState([])
+    const [questions, setQuestions] = useState<Question[]>([])
+    const [currentQuestion, setCurrentQuestion] = useState<number>(0)
+    const [score, setScore] = useState<number>(0)
+    const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
+    const [showResult, setShowResult] = useState<boolean>(false)
+    const [quizComplete, setQuizComplete] = useState<boolean>(false)
+    const [shuffledAnswers, setShuffledAnswers] = useState<string[]>([])
 
     useEffect(() => {
         document.title = 'Sanrio Quiz 🎀'
@@ -33,12 +34,12 @@ function SanrioQuiz() {
         }
     }, [currentQuestion, questions])
 
-    const loadQuestions = async () => {
+    const loadQuestions = async (): Promise<void> => {
         try {
             const response = await fetch(
                 '/andii/sanrio-quiz/hello_kitty_trivia.json'
             )
-            const allQuestions = await response.json()
+            const allQuestions: Question[] = await response.json()
 
             // Select questions by difficulty
             const easy = allQuestions
@@ -65,7 +66,7 @@ function SanrioQuiz() {
         }
     }
 
-    const resetQuiz = () => {
+    const resetQuiz = (): void => {
         setCurrentQuestion(0)
         setScore(0)
         setSelectedAnswer(null)
@@ -75,7 +76,7 @@ function SanrioQuiz() {
         loadQuestions()
     }
 
-    const handleAnswerClick = (answer) => {
+    const handleAnswerClick = (answer: string): void => {
         if (selectedAnswer) return
 
         setSelectedAnswer(answer)
