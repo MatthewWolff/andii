@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import ImageSlideshow from '../components/ImageSlideshow'
+import ImageGrid from '../components/ImageGrid'
+import ViewToggleButton from '../components/ViewToggleButton'
 import './Xmas2025.css'
 
 function Xmas2025() {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [prevImage, setPrevImage] = useState(null)
-  const [loadedImages, setLoadedImages] = useState(new Set([0]))
+  const [showGrid, setShowGrid] = useState(false)
   const images = [
     './xmas-2025/andii_fvded_roll.jpg',
     './xmas-2025/andii_pumpkin_forehead.jpg',
@@ -31,54 +32,29 @@ function Xmas2025() {
     './xmas-2025/andii_belmont_lounge_cute.jpg'
   ]
 
-  useEffect(() => {
-    // Preload next 2 images
-    const nextIndex = (currentImage + 1) % images.length
-    const nextNextIndex = (currentImage + 2) % images.length
-    
-    const indicesToLoad = [nextIndex, nextNextIndex]
-    indicesToLoad.forEach(index => {
-      if (!loadedImages.has(index)) {
-        const img = new Image()
-        img.src = images[index]
-        img.onload = () => setLoadedImages(prev => new Set([...prev, index]))
-      }
-    })
-  }, [currentImage, images.length, loadedImages])
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPrevImage(currentImage)
-      setCurrentImage((prev) => (prev + 1) % images.length)
-    }, 5000)
-    return () => clearInterval(interval)
-  }, [currentImage])
-
   return (
     <div className="xmas-container">
-      <div className="slideshow">
-        {images.map((img, index) => 
-          loadedImages.has(index) ? (
-            <div
-              key={img}
-              className={`slide ${
-                index === currentImage ? 'active' : 
-                index === prevImage ? 'exiting' : ''
-              }`}
-              style={{ backgroundImage: `url(${img})` }}
-            />
-          ) : null
-        )}
-      </div>
-      <div className="content">
-        <h1>Merry Christmas! 🎄</h1>
-        <p>
-          Wishing you a wonderful holiday season filled with joy, love, and happiness!
-        </p>
-        <p>
-          May this Christmas bring you warmth and cheer, and may the new year ahead be filled with endless possibilities.
-        </p>
-      </div>
+      {!showGrid && (
+        <>
+          <ImageSlideshow images={images} isActive={!showGrid} />
+          <div className="content">
+            <h1>Merry Christmas! 🎄</h1>
+            <p>
+              Wishing you a wonderful holiday season filled with joy, love, and happiness!
+            </p>
+            <p>
+              May this Christmas bring you warmth and cheer, and may the new year ahead be filled with endless possibilities.
+            </p>
+          </div>
+        </>
+      )}
+      
+      {showGrid && <ImageGrid images={images} />}
+      
+      <ViewToggleButton 
+        showGrid={showGrid} 
+        onToggle={() => setShowGrid(!showGrid)} 
+      />
     </div>
   )
 }
