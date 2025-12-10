@@ -1,0 +1,303 @@
+[
+  {
+    "question": "What company created Hello Kitty?",
+    "answer": "Sanrio",
+    "difficulty": "easy",
+    "incorrect_answers": ["San-X", "Bandai", "Toei Animation"]
+  },
+  {
+    "question": "What kind of animal is Hello Kitty?",
+    "answer": "A cat",
+    "difficulty": "easy",
+    "incorrect_answers": ["A rabbit", "A bear", "A mouse"]
+  },
+  {
+    "question": "What color is Hello Kitty’s iconic bow?",
+    "answer": "Red",
+    "difficulty": "easy",
+    "incorrect_answers": ["Pink", "Blue", "Yellow"]
+  },
+  {
+    "question": "What is Hello Kitty’s full name?",
+    "answer": "Kitty White",
+    "difficulty": "easy",
+    "incorrect_answers": ["Kitty Sakura", "Katherine White", "Kitty London"]
+  },
+  {
+    "question": "Who is Hello Kitty’s twin sister?",
+    "answer": "Mimmy White",
+    "difficulty": "easy",
+    "incorrect_answers": ["Amy White", "Milly White", "Lulu White"]
+  },
+  {
+    "question": "What country is Hello Kitty originally from?",
+    "answer": "Japan",
+    "difficulty": "easy",
+    "incorrect_answers": ["South Korea", "China", "United Kingdom"]
+  },
+  {
+    "question": "What year did Hello Kitty first debut?",
+    "answer": "1974",
+    "difficulty": "easy",
+    "incorrect_answers": ["1970", "1980", "1990"]
+  },
+  {
+    "question": "What is Hello Kitty’s favorite food?",
+    "answer": "Apple pie",
+    "difficulty": "easy",
+    "incorrect_answers": ["Strawberry cake", "Pudding", "Ice cream"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s pet cat?",
+    "answer": "Charmmy Kitty",
+    "difficulty": "easy",
+    "incorrect_answers": ["Snowball", "Fluffy", "Cream Puff"]
+  },
+  {
+    "question": "Does Hello Kitty have a mouth?",
+    "answer": "No",
+    "difficulty": "easy",
+    "incorrect_answers": ["Yes"]
+  },
+  {
+    "question": "What is Hello Kitty’s zodiac sign?",
+    "answer": "Scorpio",
+    "difficulty": "easy",
+    "incorrect_answers": ["Libra", "Virgo", "Capricorn"]
+  },
+  {
+    "question": "What is Hello Kitty’s blood type?",
+    "answer": "A",
+    "difficulty": "easy",
+    "incorrect_answers": ["B", "O", "AB"]
+  },
+  {
+    "question": "What subject is Hello Kitty especially good at?",
+    "answer": "English",
+    "difficulty": "easy",
+    "incorrect_answers": ["Math", "Science", "History"]
+  },
+  {
+    "question": "What is Hello Kitty’s official height measured in?",
+    "answer": "Five apples tall",
+    "difficulty": "easy",
+    "incorrect_answers": ["Four apples tall", "Six apples tall", "One banana tall"]
+  },
+  {
+    "question": "Hello Kitty lives outside of which major Japanese city?",
+    "answer": "Tokyo",
+    "difficulty": "easy",
+    "incorrect_answers": ["Kyoto", "Osaka", "Nagoya"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s boyfriend?",
+    "answer": "Dear Daniel",
+    "difficulty": "medium",
+    "incorrect_answers": ["Timmy", "Tommy", "Danny"]
+  },
+  {
+    "question": "What is Hello Kitty’s father’s full name?",
+    "answer": "George White",
+    "difficulty": "medium",
+    "incorrect_answers": ["Charles White", "Thomas White", "Robert White"]
+  },
+  {
+    "question": "What is Hello Kitty’s mother’s name?",
+    "answer": "Mary White",
+    "difficulty": "medium",
+    "incorrect_answers": ["Martha White", "Maria White", "Miranda White"]
+  },
+  {
+    "question": "What’s the name of the rabbit character known for baking sweets?",
+    "answer": "My Melody",
+    "difficulty": "medium",
+    "incorrect_answers": ["Cinnamoroll", "Pochacco", "Kuromi"]
+  },
+  {
+    "question": "What is the name of the frog character who appears with Hello Kitty?",
+    "answer": "Keroppi",
+    "difficulty": "medium",
+    "incorrect_answers": ["Froggo", "Ribbit", "Kerochan"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s cheerful hamster friend?",
+    "answer": "Sugar",
+    "difficulty": "medium",
+    "incorrect_answers": ["Hammy", "Honey", "Pip"]
+  },
+  {
+    "question": "Which Sanrio character is a gloomy counterpart to Hello Kitty?",
+    "answer": "Kuromi",
+    "difficulty": "medium",
+    "incorrect_answers": ["Badtz-Maru", "Chococat", "Lala"]
+  },
+  {
+    "question": "What is Hello Kitty’s iconic default outfit?",
+    "answer": "A blue overalls dress",
+    "difficulty": "medium",
+    "incorrect_answers": ["A pink dress", "A red kimono", "A sailor uniform"]
+  },
+  {
+    "question": "What type of pet does Mimmy own?",
+    "answer": "A pet mouse",
+    "difficulty": "medium",
+    "incorrect_answers": ["A rabbit", "A kitten", "A hamster"]
+  },
+  {
+    "question": "What is the name of the bear character often holding a heart?",
+    "answer": "Teddy",
+    "difficulty": "medium",
+    "incorrect_answers": ["Berry", "Honey Bear", "Sugar Bear"]
+  },
+  {
+    "question": "Where was Hello Kitty born geographically?",
+    "answer": "Suburban London",
+    "difficulty": "medium",
+    "incorrect_answers": ["Tokyo", "Osaka", "Yokohama"]
+  },
+  {
+    "question": "What shape appears often in Hello Kitty’s home décor?",
+    "answer": "A heart shape",
+    "difficulty": "medium",
+    "incorrect_answers": ["A star shape", "A bow shape", "A flower shape"]
+  },
+  {
+    "question": "Which Sanrio theme park features Hello Kitty prominently?",
+    "answer": "Sanrio Puroland",
+    "difficulty": "medium",
+    "incorrect_answers": ["Harmonyland", "Tokyo Joypolis", "KidZania"]
+  },
+  {
+    "question": "What is Hello Kitty’s dream job?",
+    "answer": "A pianist",
+    "difficulty": "medium",
+    "incorrect_answers": ["A baker", "A teacher", "A nurse"]
+  },
+  {
+    "question": "What is the name of the series where Hello Kitty time-travels to classic stories?",
+    "answer": "Hello Kitty’s Furry Tale Theater",
+    "difficulty": "medium",
+    "incorrect_answers": ["Hello Kitty Adventures", "Hello Kitty Storybook", "Kitty’s Time Travel Tales"]
+  },
+  {
+    "question": "Which character is a goth-lolita reinterpretation of Hello Kitty?",
+    "answer": "Kuromi",
+    "difficulty": "medium",
+    "incorrect_answers": ["My Melody", "Badtz-Maru", "Chococat"]
+  },
+  {
+    "question": "Hello Kitty has a pet named Sugar. What kind of animal is Sugar?",
+    "answer": "A hamster",
+    "difficulty": "medium",
+    "incorrect_answers": ["A rabbit", "A kitten", "A squirrel"]
+  },
+  {
+    "question": "What musical instrument does Hello Kitty often play?",
+    "answer": "The piano",
+    "difficulty": "medium",
+    "incorrect_answers": ["Guitar", "Violin", "Flute"]
+  },
+  {
+    "question": "What personality trait is emphasized in Hello Kitty?",
+    "answer": "Kindness",
+    "difficulty": "medium",
+    "incorrect_answers": ["Ambition", "Sarcasm", "Shyness"]
+  },
+  {
+    "question": "On which side of her head does Hello Kitty wear her bow?",
+    "answer": "Left",
+    "difficulty": "medium",
+    "incorrect_answers": ["Right"]
+  },
+  {
+    "question": "What is Hello Kitty’s canonical birthplace?",
+    "answer": "London, England",
+    "difficulty": "hard",
+    "incorrect_answers": ["Tokyo, Japan", "Osaka, Japan", "Paris, France"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s maternal grandfather?",
+    "answer": "Anthony",
+    "difficulty": "hard",
+    "incorrect_answers": ["Richard", "Joseph", "Harold"]
+  },
+  {
+    "question": "What year did Sanrio state that Hello Kitty is “not a cat” but a little girl?",
+    "answer": "2014",
+    "difficulty": "hard",
+    "incorrect_answers": ["2010", "2016", "2008"]
+  },
+  {
+    "question": "What London district does Hello Kitty’s family live in?",
+    "answer": "Suburban London (near London proper)",
+    "difficulty": "hard",
+    "incorrect_answers": ["Chelsea", "Camden", "Kensington"]
+  },
+  {
+    "question": "In *Hello Kitty’s Paradise*, which fruit is heavily associated with branding?",
+    "answer": "Strawberries",
+    "difficulty": "hard",
+    "incorrect_answers": ["Apples", "Cherries", "Peaches"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s genius childhood inventor friend?",
+    "answer": "Thomas",
+    "difficulty": "hard",
+    "incorrect_answers": ["Daniel", "Timmy", "Charlie"]
+  },
+  {
+    "question": "Which Sanrio character was once marketed as Hello Kitty’s twin cousin?",
+    "answer": "Charmmy Kitty",
+    "difficulty": "hard",
+    "incorrect_answers": ["Mimmy", "My Melody", "Chococat"]
+  },
+  {
+    "question": "What was the first product Hello Kitty appeared on?",
+    "answer": "A vinyl coin purse",
+    "difficulty": "hard",
+    "incorrect_answers": ["A pencil case", "A notebook", "A lunchbox"]
+  },
+  {
+    "question": "What is the name of the 2019 Hello Kitty vlog-style YouTube series?",
+    "answer": "Hello Kitty and Friends Supercute Adventures",
+    "difficulty": "hard",
+    "incorrect_answers": ["Hello Kitty Vlogs", "KittyTube", "Hello Kitty Digital Diaries"]
+  },
+  {
+    "question": "What is the name of the fairy-tale land in *Hello Kitty’s Furry Tale Theater*?",
+    "answer": "The Wishing Woods",
+    "difficulty": "hard",
+    "incorrect_answers": ["Dreamland Valley", "Fairywood", "Kitty Kingdom"]
+  },
+  {
+    "question": "Which Sanrio character was designed by Miyuki Okumura along with later Hello Kitty work?",
+    "answer": "Cinnamoroll",
+    "difficulty": "hard",
+    "incorrect_answers": ["Kuromi", "Chococat", "Pekkle"]
+  },
+  {
+    "question": "Hello Kitty’s design is part of what kawaii sub-style?",
+    "answer": "Yume kawaii",
+    "difficulty": "hard",
+    "incorrect_answers": ["Gothic kawaii", "Decora", "Harajuku pop"]
+  },
+  {
+    "question": "What was the first Hello Kitty video game released outside Japan?",
+    "answer": "Hello Kitty World (NES, via Balloon Kid reskin)",
+    "difficulty": "hard",
+    "incorrect_answers": ["Hello Kitty Roller Rescue", "Hello Kitty Island Adventure", "Hello Kitty Party"]
+  },
+  {
+    "question": "What motif appeared on many early Hello Kitty stationery items that is less common today?",
+    "answer": "Milk bottles",
+    "difficulty": "hard",
+    "incorrect_answers": ["Stars", "Rainbows", "Tulips"]
+  },
+  {
+    "question": "What is the symbolic meaning often attributed to Hello Kitty’s lack of a mouth?",
+    "answer": "She speaks from the heart rather than through words",
+    "difficulty": "hard",
+    "incorrect_answers": ["She cannot talk", "It makes animation easier", "It symbolizes shyness"]
+  }
+]
+

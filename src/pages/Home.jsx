@@ -16,6 +16,9 @@ function Home() {
                 <Link to="/xmas-2025/" className="menu-item">
                     Merry Christmas! 🎄
                 </Link>
+                <Link to="/sanrio-quiz/" className="menu-item">
+                    Sanrio Quiz 🎀
+                </Link>
                 <button onClick={handleBirthdayClick} className="menu-item">
                     Andii's Birthday 🎉
                 </button>

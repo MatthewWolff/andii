@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Xmas2025 from './pages/Xmas2025'
+import SanrioQuiz from './pages/SanrioQuiz'
 
 function App() {
     const navigate = useNavigate()
@@ -19,6 +20,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/xmas-2025/" element={<Xmas2025 />} />
+            <Route path="/sanrio-quiz/" element={<SanrioQuiz />} />
         </Routes>
     )
 }
