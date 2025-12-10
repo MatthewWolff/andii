@@ -2,8 +2,13 @@
 <html>
 <head>
     <script>
-        // Redirect to main app for client-side routing
-        window.location.replace('/andii/');
+        // Strip trailing slash and redirect
+        const path = window.location.pathname;
+        if (path.endsWith('/') && path !== '/andii/') {
+            window.location.replace(path.slice(0, -1));
+        } else {
+            window.location.replace('/andii/');
+        }
     </script>
 </head>
 <body></body>
