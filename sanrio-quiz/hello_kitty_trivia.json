@@ -4,95 +4,95 @@
     "answer": "Sanrio",
     "difficulty": "easy",
     "incorrect_answers": [
+      "Nintendo",
       "Bandai",
-      "San‑X",
-      "Toei Animation"
+      "Disney"
     ]
   },
   {
-    "question": "What is Hello Kitty’s full name?",
+    "question": "What is Hello Kitty's full name?",
     "answer": "Kitty White",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Kitty Sakura",
-      "Kitty London",
-      "Kitty Smith"
+      "Mimi White",
+      "Mary White",
+      "Kitty Chan"
     ]
   },
   {
-    "question": "When is Hello Kitty’s birthday?",
-    "answer": "November 1, 1974",
+    "question": "When is Hello Kitty's birthday?",
+    "answer": "November 1",
     "difficulty": "easy",
     "incorrect_answers": [
-      "October 1, 1974",
-      "December 1, 1974",
-      "January 1, 1974"
+      "October 31",
+      "December 25",
+      "January 1"
     ]
   },
   {
     "question": "Where was Hello Kitty born?",
-    "answer": "Suburbs of London, England",
-    "difficulty": "easy",
+    "answer": "London, England",
+    "difficulty": "medium",
     "incorrect_answers": [
       "Tokyo, Japan",
-      "Osaka, Japan",
-      "New York, USA"
+      "New York, USA",
+      "Paris, France"
     ]
   },
   {
     "question": "How tall is Hello Kitty in her official profile?",
-    "answer": "Five apples tall",
-    "difficulty": "easy",
+    "answer": "Five apples",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Four apples tall",
-      "Six apples tall",
-      "Three apples tall"
+      "Three apples",
+      "5 inches",
+      "Seven apples"
     ]
   },
   {
-    "question": "What type of food is Hello Kitty’s favorite?",
-    "answer": "Mama’s homemade apple pie",
-    "difficulty": "easy",
+    "question": "What type of food is Hello Kitty's favorite?",
+    "answer": "Apple pie",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Strawberry cake",
-      "Chocolate cookies",
-      "Vanilla pudding"
+      "Sushi",
+      "Chocolate cake",
+      "Strawberry ice cream"
     ]
   },
   {
-    "question": "What are two of Hello Kitty’s official hobbies?",
-    "answer": "Baking cookies and playing the piano",
-    "difficulty": "easy",
+    "question": "What are two of Hello Kitty's official hobbies?",
+    "answer": "Baking cookies and making new friends",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "Swimming and dancing",
-      "Painting and gardening",
-      "Running and drawing"
+      "Playing soccer and swimming",
+      "Reading and painting",
+      "Gardening and watching TV"
     ]
   },
   {
-    "question": "What color is Hello Kitty’s signature bow (on her left ear)?",
+    "question": "What color is Hello Kitty's signature bow (on her left ear)?",
     "answer": "Red",
     "difficulty": "easy",
     "incorrect_answers": [
-      "Pink",
       "Blue",
-      "Yellow"
+      "Yellow",
+      "Pink"
     ]
   },
   {
-    "question": "What is the name of Hello Kitty’s twin sister?",
-    "answer": "Mimmy White",
-    "difficulty": "easy",
+    "question": "What is the name of Hello Kitty's twin sister?",
+    "answer": "Mimmy",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Milly White",
-      "Molly White",
-      "Mandy White"
+      "Mimi",
+      "Mary",
+      "Minnie"
     ]
   },
   {
     "question": "What color bow does Mimmy wear (on her right ear)?",
     "answer": "Yellow",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "incorrect_answers": [
       "Red",
       "Pink",
@@ -102,81 +102,81 @@
   {
     "question": "What blood type is Hello Kitty listed as having in her profile?",
     "answer": "A",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "B",
       "O",
+      "B",
       "AB"
     ]
   },
   {
-    "question": "According to official sources, what is Hello Kitty’s species classification?",
-    "answer": "A “little girl,” not a cat",
+    "question": "According to official sources, what is Hello Kitty's species classification?",
+    "answer": "Anthropomorphic Japanese Bobtail cat",
     "difficulty": "medium",
     "incorrect_answers": [
-      "An actual cat",
-      "A rabbit",
-      "A teddy bear"
+      "Human schoolgirl",
+      "Stuffed animal",
+      "Cartoon rabbit"
     ]
   },
   {
     "question": "What grade is Hello Kitty described as being in (in her universe)?",
-    "answer": "Third grade",
+    "answer": "3rd grade",
     "difficulty": "medium",
     "incorrect_answers": [
-      "First grade",
-      "Second grade",
-      "Fourth grade"
+      "1st grade",
+      "5th grade",
+      "Kindergarten"
     ]
   },
   {
-    "question": "Name one of Hello Kitty’s parents.",
+    "question": "Name one of Hello Kitty's parents.",
     "answer": "Mary White",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Anna White",
-      "Maria White",
-      "Margaret White"
+      "Karen White",
+      "Laura White",
+      "Alice White"
     ]
   },
   {
-    "question": "What is the name of Hello Kitty’s pet Persian cat?",
+    "question": "What is the name of Hello Kitty's pet Persian cat?",
     "answer": "Charmmy Kitty",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Snowy Kitty",
-      "Fluffy Kitty",
-      "Candy Kitty"
+      "Sugar Cat",
+      "Fluffy",
+      "Oliver"
     ]
   },
   {
     "question": "Besides baking and piano, what other pastime is Hello Kitty described as liking in official lore?",
-    "answer": "Reading",
+    "answer": "Collecting cute things",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Swimming",
-      "Dancing",
-      "Painting"
+      "Playing soccer",
+      "Surfing",
+      "Fishing"
     ]
   },
   {
-    "question": "What are Hello Kitty’s favorite school subjects (two of them)?",
+    "question": "What are Hello Kitty's favorite school subjects (two of them)?",
     "answer": "English and music",
     "difficulty": "medium",
     "incorrect_answers": [
       "Math and science",
-      "History and art",
-      "Geography and PE"
+      "History and physical education",
+      "Biology and literature"
     ]
   },
   {
-    "question": "What is Hello Kitty’s dream job (one of them)?",
+    "question": "What is Hello Kitty's dream job (one of them)?",
     "answer": "Pianist",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Teacher",
-      "Baker",
-      "Artist"
+      "Astronaut",
+      "Chef",
+      "Teacher"
     ]
   },
   {
@@ -184,9 +184,9 @@
     "answer": "Poet",
     "difficulty": "medium",
     "incorrect_answers": [
+      "Singer",
       "Doctor",
-      "Dancer",
-      "Chef"
+      "Architect"
     ]
   },
   {
@@ -194,9 +194,9 @@
     "answer": "Sanrio Puroland",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Harmonyland",
       "Tokyo Disneyland",
-      "Sanrio Land"
+      "Universal Studios Japan",
+      "Tokyo Tower"
     ]
   },
   {
@@ -204,97 +204,99 @@
     "answer": "1974",
     "difficulty": "medium",
     "incorrect_answers": [
-      "1970",
-      "1972",
-      "1976"
+      "1980",
+      "1978",
+      "1972"
     ]
   },
   {
     "question": "What was the very first type of product Hello Kitty appeared on (in Japan)?",
-    "answer": "A vinyl coin purse",
-    "difficulty": "medium",
+    "answer": "Vinyl coin purse",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "A notebook",
-      "A pencil case",
-      "A toy doll"
+      "Plush doll",
+      "Greeting card",
+      "Keychain"
     ]
   },
   {
     "question": "Which ear does Hello Kitty wear her bow on?",
     "answer": "Left",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "incorrect_answers": [
-      "Right"
+      "Right",
+      "She doesn't wear a bow",
+      "Top of her head"
     ]
   },
   {
-    "question": "What is Hello Kitty’s official weight (in the same “apples” scale)?",
+    "question": "What is Hello Kitty's official weight (in the same \"apples\" scale)?",
     "answer": "Three apples",
     "difficulty": "medium",
     "incorrect_answers": [
       "Two apples",
-      "Four apples",
-      "Five apples"
+      "Five apples",
+      "Seven apples"
     ]
   },
   {
-    "question": "What kind of pie is Hello Kitty’s favorite homemade dessert?",
+    "question": "What kind of pie is Hello Kitty's favorite homemade dessert?",
     "answer": "Apple pie",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Cherry pie",
       "Pumpkin pie",
-      "Strawberry pie"
+      "Cherry pie",
+      "Blueberry pie"
     ]
   },
   {
-    "question": "What is Hello Kitty’s color preference listed among her favorite things?",
+    "question": "What is Hello Kitty's color preference listed among her favorite things?",
     "answer": "Red",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "incorrect_answers": [
-      "Blue",
       "Pink",
-      "Yellow"
+      "Blue",
+      "Green"
     ]
   },
   {
     "question": "What attitude or personality trait is associated with Hello Kitty?",
-    "answer": "Kind-hearted and friendly",
-    "difficulty": "easy",
+    "answer": "Kind-hearted",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Grumpy",
+      "Aggressive",
       "Shy",
-      "Serious"
+      "Mischievous"
     ]
   },
   {
     "question": "What animal features does Hello Kitty have (despite being described as a girl)?",
-    "answer": "Whiskers",
-    "difficulty": "hard",
+    "answer": "Cat ears and whiskers",
+    "difficulty": "easy",
     "incorrect_answers": [
-      "Wings",
-      "A horn",
-      "Scales"
+      "Bear nose",
+      "Rabbit ears",
+      "Dog tail"
     ]
   },
   {
     "question": "What year did Sanrio clarify publicly that Hello Kitty is a girl and not a cat?",
     "answer": "2014",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "2010",
-      "2016",
-      "2008"
+      "2000",
+      "1995",
+      "2020"
     ]
   },
   {
-    "question": "In what country (outside Japan) does Hello Kitty’s birthplace lore place her origin?",
+    "question": "In what country (outside Japan) does Hello Kitty's birthplace lore place her origin?",
     "answer": "England",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "France",
       "United States",
-      "Germany"
+      "Canada",
+      "China"
     ]
   },
   {
@@ -302,169 +304,169 @@
     "answer": "Sugar",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Honey",
-      "Cookie",
-      "Puffy"
+      "Pom Pom",
+      "Tippy",
+      "Shocks"
     ]
   },
   {
-    "question": "Which of these is NOT listed among Hello Kitty’s hobbies in her official profile?",
-    "answer": "Skateboarding",
+    "question": "Which of these is NOT listed among Hello Kitty's hobbies in her official profile?",
+    "answer": "Playing video games",
     "difficulty": "medium",
     "incorrect_answers": [
       "Baking cookies",
-      "Playing piano",
-      "Collecting cute things"
+      "Making new friends",
+      "Traveling"
     ]
   },
   {
     "question": "What does Hello Kitty love making most according to her character message?",
-    "answer": "Friends",
+    "answer": "New friends",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Money",
-      "Laughs",
-      "Food"
+      "Cookies",
+      "Pancakes",
+      "Art projects"
     ]
   },
   {
     "question": "What nationality (by birthplace lore) is Hello Kitty considered to have?",
     "answer": "British",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
       "Japanese",
       "American",
-      "Canadian"
+      "Chinese"
     ]
   },
   {
-    "question": "What is the surname of Hello Kitty’s family?",
+    "question": "What is the surname of Hello Kitty's family?",
     "answer": "White",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Smith",
       "Brown",
-      "Black"
+      "Blue",
+      "Pink"
     ]
   },
   {
     "question": "What design accessory is Hello Kitty most recognized for wearing on her head?",
-    "answer": "A red bow",
+    "answer": "Bow",
     "difficulty": "easy",
     "incorrect_answers": [
-      "A crown",
-      "A hat",
-      "A ribbon on her tail"
+      "Crown",
+      "Hat",
+      "Ribbon"
     ]
   },
   {
-    "question": "Which of these is among Hello Kitty’s stated dreams for future aspiration?",
-    "answer": "Becoming a pianist",
+    "question": "Which of these is among Hello Kitty's stated dreams for future aspiration?",
+    "answer": "Pianist",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Becoming a doctor",
-      "Becoming a scientist",
-      "Becoming a dancer"
+      "Astronaut",
+      "Chef",
+      "Scientist"
     ]
   },
   {
-    "question": "What form of media helped Hello Kitty become internationally famous beyond Japan during the 1980s? (e.g., merchandise expansion, cartoon series, etc.)",
-    "answer": "Merchandise",
+    "question": "What form of media helped Hello Kitty become internationally famous beyond Japan during the 1980s?",
+    "answer": "Extensive merchandise expansion",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Live‑action films",
+      "Animated TV series",
       "Video games",
-      "Radio shows"
+      "Theme parks"
     ]
   },
   {
     "question": "According to official lore, with whom does Hello Kitty live?",
-    "answer": "Her parents and her twin sister Mimmy",
+    "answer": "Her parents (and twin sister)",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Her grandparents",
-      "Her pet only",
-      "Alone"
+      "Alone",
+      "With grandparents",
+      "In a dorm with friends"
     ]
   },
   {
-    "question": "What kind of aesthetic values—beyond cuteness—does Hello Kitty symbolize according to commentary about her design? (per Sanrio and cultural analysis)",
-    "answer": "Friendship and kindness",
+    "question": "What kind of aesthetic values—beyond cuteness—does Hello Kitty symbolize according to commentary about her design?",
+    "answer": "Friendship and positivity",
     "difficulty": "hard",
     "incorrect_answers": [
-      "Aggression and competition",
-      "Mystery and magic",
-      "Isolation and rebellion"
+      "Rebellion and independence",
+      "Solitude",
+      "Mystery"
     ]
   },
   {
     "question": "Which pet hamster belongs to Hello Kitty according to official profiles?",
     "answer": "Sugar",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Honey",
-      "Cookie",
-      "Puffy"
+      "Turbo",
+      "Kitty",
+      "Purin"
     ]
   },
   {
-    "question": "What is Hello Kitty’s surname according to her official family profile?",
+    "question": "What is Hello Kitty's surname according to her official family profile?",
     "answer": "White",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "Smith",
+      "Blue",
       "Brown",
-      "Black"
+      "Pink"
     ]
   },
   {
     "question": "What core value or motto is Hello Kitty said to embody according to official descriptions?",
-    "answer": "Friendship and kindness",
+    "answer": "Friendship",
     "difficulty": "hard",
     "incorrect_answers": [
-      "Ambition",
-      "Competition",
-      "Independence"
+      "Courage",
+      "Freedom",
+      "Strength"
     ]
   },
   {
     "question": "How is Hello Kitty officially described in terms of species?",
-    "answer": "A little girl, not a cat",
-    "difficulty": "hard",
+    "answer": "Anthropomorphic Japanese Bobtail cat",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "A cat",
-      "A rabbit",
-      "A teddy bear"
+      "Rabbit",
+      "Panda",
+      "Doll"
     ]
   },
   {
     "question": "What kind of animal is Cinnamoroll?",
-    "answer": "A white puppy with long ears",
+    "answer": "Puppy",
     "difficulty": "easy",
     "incorrect_answers": [
-      "A cat",
-      "A rabbit",
-      "A bear"
+      "Cat",
+      "Rabbit",
+      "Bear"
     ]
   },
   {
-    "question": "What color is My Melody’s hood?",
-    "answer": "Red or pink",
+    "question": "What color is My Melody's hood?",
+    "answer": "Pink",
     "difficulty": "easy",
     "incorrect_answers": [
+      "Red",
       "Blue",
-      "Yellow",
-      "Green"
+      "White"
     ]
   },
   {
     "question": "What kind of animal is Pom Pom Purin?",
-    "answer": "Golden retriever",
+    "answer": "Golden Retriever dog",
     "difficulty": "easy",
     "incorrect_answers": [
-      "Beagle",
-      "Pomeranian",
-      "Shiba Inu"
+      "Cat",
+      "Rabbit",
+      "Hamster"
     ]
   },
   {
@@ -473,34 +475,34 @@
     "difficulty": "easy",
     "incorrect_answers": [
       "Red",
-      "Yellow",
-      "Blue"
+      "Blue",
+      "Black"
     ]
   },
   {
     "question": "What type of animal is Pochacco?",
-    "answer": "White dog",
+    "answer": "Dog",
     "difficulty": "easy",
     "incorrect_answers": [
-      "Black dog",
       "Cat",
-      "Rabbit"
+      "Frog",
+      "Hamster"
     ]
   },
   {
-    "question": "What is the signature color of Kuromi’s jester hat?",
-    "answer": "Black with a pink skull",
-    "difficulty": "easy",
-    "incorrect_answers": [
-      "Red with a skull",
-      "Purple with stars",
-      "Yellow with a moon"
-    ]
-  },
-  {
-    "question": "What color are Keroppi’s eyes?",
+    "question": "What is the signature color of Kuromi's jester hat?",
     "answer": "Black",
-    "difficulty": "easy",
+    "difficulty": "medium",
+    "incorrect_answers": [
+      "Purple",
+      "Pink",
+      "Yellow"
+    ]
+  },
+  {
+    "question": "What color are Keroppi's eyes?",
+    "answer": "Black",
+    "difficulty": "medium",
     "incorrect_answers": [
       "Green",
       "Blue",
@@ -508,23 +510,23 @@
     ]
   },
   {
-    "question": "Pom Pom Purin’s favorite food is…?",
-    "answer": "Custard pudding",
+    "question": "Pom Pom Purin's favorite food is ...?",
+    "answer": "Pudding",
     "difficulty": "easy",
     "incorrect_answers": [
-      "Apple pie",
-      "Chocolate cake",
-      "Strawberry shortcake"
+      "Chocolate",
+      "Carrots",
+      "Fish"
     ]
   },
   {
-    "question": "What is My Melody’s birthday?",
-    "answer": "January 18, 1975",
+    "question": "What is My Melody's birthday?",
+    "answer": "January 18",
     "difficulty": "medium",
     "incorrect_answers": [
-      "February 18, 1975",
-      "January 8, 1975",
-      "March 18, 1975"
+      "February 14",
+      "July 4",
+      "December 25"
     ]
   },
   {
@@ -534,57 +536,57 @@
     "incorrect_answers": [
       "Badtz-Maru",
       "Cinnamoroll",
-      "Pochacco"
+      "Pompompurin"
     ]
   },
   {
     "question": "Where does Cinnamoroll live according to his official profile?",
-    "answer": "Cafe Cinnamon",
+    "answer": "At Cafe Cinnamoroll with Ms. Anna",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Pom Pom Purin’s house",
-      "Keroppi’s pond",
-      "Badtz-Maru’s island"
+      "In the forest",
+      "In Tokyo",
+      "In My Melody's house"
     ]
   },
   {
-    "question": "What is Keroppi’s full name?",
-    "answer": "Keroppi Minna no Keroppi",
-    "difficulty": "medium",
+    "question": "What is Keroppi's full name?",
+    "answer": "Keroppi Hasunoue",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "Keroppi Frogger",
-      "Keroppi Hoppy",
-      "Keroppi San"
+      "Keroppi Pond",
+      "Keroppi Kero",
+      "Keroppi Keroker"
     ]
   },
   {
-    "question": "What is Badtz-Maru’s birthday?",
-    "answer": "April 1, 1993",
-    "difficulty": "medium",
+    "question": "What is Badtz-Maru's birthday?",
+    "answer": "April 1",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "March 1, 1993",
-      "May 1, 1993",
-      "April 2, 1993"
+      "October 31",
+      "July 7",
+      "December 1"
     ]
   },
   {
     "question": "Which Sanrio character lives in a bakery and loves sweets?",
-    "answer": "Cinnamoroll",
-    "difficulty": "medium",
+    "answer": "Sugarbunnies",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "Pom Pom Purin",
+      "Cinnamoroll",
       "My Melody",
-      "Pochacco"
+      "Pompompurin"
     ]
   },
   {
-    "question": "What is the name of Pom Pom Purin’s best friend who is a mouse?",
+    "question": "What is the name of Pom Pom Purin's best friend who is a mouse?",
     "answer": "Muffin",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Chiffon",
-      "Cappuccino",
-      "Cookie"
+      "Cookie",
+      "Chocolate",
+      "Caramel"
     ]
   },
   {
@@ -592,99 +594,99 @@
     "answer": "Kiki and Lala",
     "difficulty": "medium",
     "incorrect_answers": [
-      "Koko and Lulu",
-      "Tiki and Lili",
-      "Piko and Poko"
+      "Ran and Siri",
+      "Ami and Yumi",
+      "Tinker Bell and Periwinkle"
     ]
   },
   {
-    "question": "What is Badtz-Maru’s favorite food?",
-    "answer": "Peanuts",
-    "difficulty": "medium",
+    "question": "What is Badtz-Maru's favorite food?",
+    "answer": "Sardines",
+    "difficulty": "hard",
     "incorrect_answers": [
-      "Chocolate",
-      "Pudding",
-      "Apple pie"
+      "Pizza",
+      "Pancakes",
+      "Chocolate"
     ]
   },
   {
     "question": "What is the official height of Cinnamoroll?",
-    "answer": "12 cm",
+    "answer": "Six marshmallows",
     "difficulty": "hard",
     "incorrect_answers": [
-      "15 cm",
-      "10 cm",
-      "20 cm"
+      "Eight apples",
+      "One meter",
+      "Five doughnuts"
     ]
   },
   {
     "question": "Where do the Little Twin Stars, Kiki and Lala, come from?",
-    "answer": "The Land of Stars",
+    "answer": "The Star of Wonder (Dream Star-Cloud)",
     "difficulty": "hard",
     "incorrect_answers": [
-      "The Moon",
-      "Cloud Kingdom",
-      "Rainbow Land"
+      "Green forest",
+      "Candyland",
+      "Atlantis"
     ]
   },
   {
-    "question": "What is the color of Kiki’s hair?",
+    "question": "What is the color of Kiki's hair?",
     "answer": "Blue",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "incorrect_answers": [
       "Pink",
-      "Purple",
-      "Green"
+      "Brown",
+      "Yellow"
     ]
   },
   {
-    "question": "What is Kuromi’s favorite pastime?",
+    "question": "What is Kuromi's favorite pastime?",
     "answer": "Writing in her diary",
     "difficulty": "hard",
     "incorrect_answers": [
-      "Baking",
-      "Sleeping",
-      "Swimming"
+      "Gardening",
+      "Swimming",
+      "Dancing"
     ]
   },
   {
     "question": "Which character is known as a mischievous penguin from Oahu, Hawaii?",
     "answer": "Badtz-Maru",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
       "Keroppi",
-      "Pochacco",
-      "Cinnamoroll"
+      "Tuxedo Sam",
+      "Pochacco"
     ]
   },
   {
-    "question": "What is the name of Cinnamoroll’s puppy friend with long ears and blue eyes?",
-    "answer": "Cappuccino",
-    "difficulty": "hard",
+    "question": "What is the name of Cinnamoroll's puppy friend with long ears and blue eyes?",
+    "answer": "Chiffon",
+    "difficulty": "medium",
     "incorrect_answers": [
+      "Mikan",
       "Espresso",
-      "Latte",
-      "Mocha"
+      "Cappuccino"
     ]
   },
   {
-    "question": "Which Sanrio character’s home is a pudding-shaped house?",
+    "question": "Which Sanrio character's home is a pudding-shaped house?",
     "answer": "Pom Pom Purin",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "incorrect_answers": [
+      "My Melody",
       "Cinnamoroll",
-      "Chococat",
-      "Badtz-Maru"
+      "Hello Kitty"
     ]
   },
   {
     "question": "What is the official birthday of Pom Pom Purin?",
-    "answer": "April 16, 1996",
-    "difficulty": "hard",
+    "answer": "April 16",
+    "difficulty": "medium",
     "incorrect_answers": [
-      "March 16, 1996",
-      "April 10, 1996",
-      "May 16, 1996"
+      "May 5",
+      "January 1",
+      "November 1"
     ]
   }
 ]
