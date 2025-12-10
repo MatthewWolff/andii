@@ -33,9 +33,22 @@ function GoogleAnalytics() {
 
     useEffect(() => {
         if (window.gtag) {
+            const getPageTitle = (pathname: string): string => {
+                switch (pathname) {
+                    case '/':
+                        return 'home'
+                    case '/xmas-2025/':
+                        return 'xmas-2025'
+                    case '/sanrio-quiz/':
+                        return 'sanrio-quiz'
+                    default:
+                        return pathname.replace(/\//g, '') || 'unknown'
+                }
+            }
+
             window.gtag('config', 'G-YX630D4XCV', {
                 page_path: location.pathname,
-                page_title: location.pathname.replace('/', '') || 'home',
+                page_title: getPageTitle(location.pathname),
             })
         }
     }, [location])
