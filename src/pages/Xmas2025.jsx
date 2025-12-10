@@ -11,6 +11,11 @@ function Xmas2025() {
 
     useEffect(() => {
         document.title = 'Merry Christmas! 🎄'
+        
+        // Preload audio
+        const audio = new Audio('/andii/xmas-2025/minecraft-villager.mp3')
+        audio.preload = 'auto'
+        
         return () => {
             document.title = "Andii's Site"
         }
