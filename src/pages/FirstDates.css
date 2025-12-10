@@ -1,0 +1,116 @@
+.first-dates-container {
+    background-color: #ccccff;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.first-dates-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.first-dates-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
+    margin: 20px 0;
+}
+
+.first-dates-instructions {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.first-dates-instructions-sub {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.first-dates-buttons {
+    margin-bottom: 20px;
+}
+
+.first-dates-button {
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.first-dates-button-primary {
+    background-color: #f3b2cb;
+}
+
+.first-dates-button-secondary {
+    background-color: #999;
+}
+
+.first-dates-score {
+    font-size: 1.2rem;
+}
+
+.first-dates-score-complete {
+    color: #4caf50;
+}
+
+.first-dates-score-incomplete {
+    color: #666;
+}
+
+.first-dates-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
+
+.first-dates-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f3b2cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transform: scale(1);
+    transition: all 0.2s ease;
+}
+
+.first-dates-card-selected {
+    background-color: #e8f4fd;
+    border: 3px solid #2196f3;
+    transform: scale(1.02);
+}
+
+.first-dates-card-activity {
+    flex: 1;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.first-dates-card-date {
+    background-color: #f3b2cb;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.first-dates-loading {
+    background-color: #ccccff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

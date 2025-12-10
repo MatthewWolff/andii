@@ -1,0 +1,26 @@
+.crossword-container {
+    background-color: #ccccff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #333;
+    padding: 20px;
+}
+
+.crossword-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.crossword-iframe {
+    border: 3px solid black;
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    min-height: 400px;
+}

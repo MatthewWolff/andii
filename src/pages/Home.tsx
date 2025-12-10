@@ -1,34 +1,14 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FallingIcons from '../components/FallingIcons'
+import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
 function Home() {
-    useEffect(() => {
-        // Preload first 4 Christmas images in the same order as Xmas2025.tsx
-        const imageNames = [
-            'andii_skiing_cute.jpg',
-            'andii_pumpkin_forehead.jpg',
-            'andii_fvded_bliss.jpg',
-            'andii_vice.jpg',
-        ]
-
-        // Start preloading after a short delay to not block initial page load
-        const timer = setTimeout(() => {
-            imageNames.forEach((imageName, index) => {
-                // Stagger the preloading to avoid overwhelming the browser
-                setTimeout(() => {
-                    const img = new Image()
-                    img.src = `/andii/xmas-2025/${imageName}`
-                }, index * 100) // 100ms delay between each image
-            })
-        }, 1000) // Start after 1 second
-
-        return () => clearTimeout(timer)
-    }, [])
+    const isLocalhost = window.location.hostname === 'localhost'
 
     return (
         <div className="home">
+            <XmasImagePreloader />
             <FallingIcons />
             <h1>:3</h1>
             <nav className="menu">
@@ -41,6 +21,19 @@ function Home() {
                 <Link to="/birthday/" className="menu-item">
                     Andii's Birthday 🎉
                 </Link>
+                {isLocalhost && (
+                    <>
+                        <Link to="/crossword/" className="menu-item">
+                            The Crossword 🧩
+                        </Link>
+                        <Link to="/first-dates/" className="menu-item">
+                            15 First Dates 💕
+                        </Link>
+                        <Link to="/chamchi-fan-art/" className="menu-item">
+                            Chamchi Fan Art 🎨
+                        </Link>
+                    </>
+                )}
             </nav>
         </div>
     )
