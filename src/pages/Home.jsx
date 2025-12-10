@@ -1,4 +1,6 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
+import FallingIcons from '../components/FallingIcons'
 import './Home.css'
 
 function Home() {
@@ -8,6 +10,7 @@ function Home() {
 
   return (
     <div className="home">
+      <FallingIcons />
       <h1>:3</h1>
       <nav className="menu">
         <button onClick={handleBirthdayClick} className="menu-item">

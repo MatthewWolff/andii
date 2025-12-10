@@ -14,6 +14,8 @@
   font-size: 3rem;
   margin-bottom: 2rem;
   color: #333;
+  position: relative;
+  z-index: 1;
 }
 
 .menu {
@@ -33,9 +35,27 @@
   border: none;
   cursor: pointer;
   font-family: inherit;
+  position: relative;
+  z-index: 1;
 }
 
 .menu-item:hover {
   transform: scale(1.05);
   background: #f5c4d8;
+}
+
+.falling-icon {
+  position: fixed;
+  top: -50px;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  z-index: 0;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(calc(100vh + 50px));
+  }
 }
