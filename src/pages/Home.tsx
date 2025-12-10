@@ -18,9 +18,6 @@ function Home() {
                 <Link to="/sanrio-quiz/" className="menu-item">
                     Sanrio Quiz 🎀
                 </Link>
-                <Link to="/birthday/" className="menu-item">
-                    Andii's Birthday 🎉
-                </Link>
                 {isLocalhost && (
                     <>
                         <Link to="/crossword/" className="menu-item">
@@ -34,6 +31,9 @@ function Home() {
                         </Link>
                     </>
                 )}
+                <Link to="/birthday/" className="menu-item">
+                    Andii's Birthday 🎉
+                </Link>
             </nav>
         </div>
     )
