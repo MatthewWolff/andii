@@ -1,9 +1,11 @@
 # Testing and Deployment Guide
 
-## Deployment Process
-1. **Always wait for completion**: Never assume deployment worked without verification
-2. **Monitor with GitHub CLI**: Use `gh run watch <run-id>` to track progress
-3. **Verify output**: Always check the deployed page after successful completion
+## Deployment Process - MANDATORY STEPS
+1. **Build and push changes**
+2. **ALWAYS track deployment**: Use `gh run list --limit 1` to get run ID
+3. **ALWAYS monitor completion**: Use `gh run watch <run-id>` until success
+4. **ALWAYS verify output**: Check the deployed page after successful completion
+5. **NEVER assume deployment worked without verification**
 
 ## Testing Deployed Changes
 1. **Check HTML structure**: `curl -s https://wolff.sh/andii/ | head -15`
@@ -23,6 +25,11 @@
 - **Cause**: Missing `basename` in BrowserRouter for subpath deployment
 - **Solution**: Add `basename="/andii"` to BrowserRouter
 
+### Refresh 404 Issues
+- **Issue**: Refreshing on routes like `/andii/xmas-2025/` returns 404
+- **Cause**: GitHub Pages serves static files, client-side routes don't exist as files
+- **Solution**: 404.html preserves route in hash, React Router handles navigation
+
 ### Deployment Caching Issues
 - **Issue**: GitHub Pages serves stale content despite successful deployment
 - **Symptoms**: 
@@ -33,7 +40,7 @@
 
 ### Image Path Issues
 - **Issue**: Images 404 in development with absolute paths
-- **Solution**: Use relative paths (`./xmas-2025/image.jpg`) for public assets
+- **Solution**: Use absolute paths (`/andii/xmas-2025/image.jpg`) for consistent loading
 
 ## Verification Checklist
 After each deployment:
@@ -43,6 +50,7 @@ After each deployment:
 - [ ] Build timestamp/marker appears in HTML source
 - [ ] Router navigation works for all pages
 - [ ] External redirects function properly
+- [ ] Refresh works on all routes
 
 ## Build Markers
 Add HTML comments with timestamps to track deployments:
@@ -62,8 +70,10 @@ Add HTML comments with timestamps to track deployments:
 - **Expected result**: HTTP 200
 
 ## Key Lessons
-- GitHub Pages deployment can have caching/artifact issues
+- **ALWAYS track GitHub Pages deployment completion**
 - Always verify the actual deployed content matches local build
 - Use build markers to confirm deployment updates
 - Test both development and production asset paths
 - peaceiris/actions-gh-pages works better than native GitHub Actions for deployment
+- Use trailing slashes consistently in routes and links
+- 404.html should preserve routes for client-side routing
