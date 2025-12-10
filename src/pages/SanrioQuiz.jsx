@@ -9,6 +9,7 @@ function SanrioQuiz() {
     const [selectedAnswer, setSelectedAnswer] = useState(null)
     const [showResult, setShowResult] = useState(false)
     const [quizComplete, setQuizComplete] = useState(false)
+    const [shuffledAnswers, setShuffledAnswers] = useState([])
 
     useEffect(() => {
         document.title = 'Sanrio Quiz 🎀'
@@ -17,6 +18,14 @@ function SanrioQuiz() {
             document.title = "Andii's Site"
         }
     }, [])
+
+    useEffect(() => {
+        if (questions.length > 0) {
+            const currentQ = questions[currentQuestion]
+            const allAnswers = [currentQ.answer, ...currentQ.incorrect_answers].sort(() => Math.random() - 0.5)
+            setShuffledAnswers(allAnswers)
+        }
+    }, [currentQuestion, questions])
 
     const loadQuestions = async () => {
         try {
@@ -93,7 +102,6 @@ function SanrioQuiz() {
     }
 
     const currentQ = questions[currentQuestion]
-    const allAnswers = [currentQ.answer, ...currentQ.incorrect_answers].sort(() => Math.random() - 0.5)
 
     return (
         <div className="quiz-container">
@@ -105,7 +113,7 @@ function SanrioQuiz() {
                 <h2 className="question">{currentQ.question}</h2>
                 
                 <div className="answers-grid">
-                    {allAnswers.map((answer, index) => (
+                    {shuffledAnswers.map((answer, index) => (
                         <button
                             key={index}
                             className={`answer-button ${
