@@ -119,3 +119,41 @@
 .view-toggle-btn:hover {
   transform: scale(1.05);
 }
+
+.back-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: #F3B2CB;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 0.9rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+}
+
+.ough-btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background: #F3B2CB;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+
+.ough-btn:hover {
+  transform: scale(1.05);
+}

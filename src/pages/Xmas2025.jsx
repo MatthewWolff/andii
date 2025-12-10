@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import ImageSlideshow from '../components/ImageSlideshow'
 import ImageGrid from '../components/ImageGrid'
 import ViewToggleButton from '../components/ViewToggleButton'
+import BackButton from '../components/BackButton'
+import SoundButton from '../components/SoundButton'
 import './Xmas2025.css'
 
 function Xmas2025() {
@@ -34,6 +36,8 @@ function Xmas2025() {
 
   return (
     <div className="xmas-container">
+      <BackButton />
+      
       {!showGrid && (
         <>
           <ImageSlideshow images={images} isActive={!showGrid} />
@@ -55,6 +59,13 @@ function Xmas2025() {
         showGrid={showGrid} 
         onToggle={() => setShowGrid(!showGrid)} 
       />
+      
+      <SoundButton 
+        audioSrc="./xmas-2025/minecraft-villager.mp3"
+        className="ough-btn"
+      >
+        Ough
+      </SoundButton>
     </div>
   )
 }
