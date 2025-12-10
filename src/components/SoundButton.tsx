@@ -1,6 +1,16 @@
 import { useState } from 'react'
 
-function SoundButton({ audioSrc, children, className = 'sound-btn' }) {
+interface SoundButtonProps {
+    audioSrc: string
+    children: React.ReactNode
+    className?: string
+}
+
+function SoundButton({
+    audioSrc,
+    children,
+    className = 'sound-btn',
+}: SoundButtonProps) {
     const [isPlaying, setIsPlaying] = useState(false)
 
     const playSound = () => {

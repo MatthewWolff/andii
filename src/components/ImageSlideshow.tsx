@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react'
 
-function ImageSlideshow({ images, isActive }) {
-    const [currentImage, setCurrentImage] = useState(0)
-    const [prevImage, setPrevImage] = useState(null)
-    const [loadedImages, setLoadedImages] = useState(new Set([0]))
+interface ImageSlideshowProps {
+    images: string[]
+    isActive: boolean
+}
+
+function ImageSlideshow({ images, isActive }: ImageSlideshowProps) {
+    const [currentImage, setCurrentImage] = useState<number>(0)
+    const [prevImage, setPrevImage] = useState<number | null>(null)
+    const [loadedImages, setLoadedImages] = useState<Set<number>>(new Set([0]))
 
     useEffect(() => {
         // Preload next 2 images
@@ -33,7 +38,7 @@ function ImageSlideshow({ images, isActive }) {
 
     return (
         <div className="slideshow">
-            {images.map((img, index) =>
+            {images.map((img: string, index: number) =>
                 loadedImages.has(index) ? (
                     <div
                         key={img}
