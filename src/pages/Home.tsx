@@ -3,10 +3,6 @@ import FallingIcons from '../components/FallingIcons'
 import './Home.css'
 
 function Home() {
-    const handleBirthdayClick = () => {
-        window.location.href = 'https://wolff.sh/AndiiBirthday/'
-    }
-
     return (
         <div className="home">
             <FallingIcons />
@@ -18,9 +14,9 @@ function Home() {
                 <Link to="/sanrio-quiz/" className="menu-item">
                     Sanrio Quiz 🎀
                 </Link>
-                <button onClick={handleBirthdayClick} className="menu-item">
+                <Link to="/birthday/" className="menu-item">
                     Andii's Birthday 🎉
-                </button>
+                </Link>
             </nav>
         </div>
     )

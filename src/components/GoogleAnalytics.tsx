@@ -41,6 +41,8 @@ function GoogleAnalytics() {
                         return 'xmas-2025'
                     case '/sanrio-quiz/':
                         return 'sanrio-quiz'
+                    case '/birthday/':
+                        return 'birthday'
                     default:
                         return pathname.replace(/\//g, '') || 'unknown'
                 }
