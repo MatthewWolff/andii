@@ -283,7 +283,7 @@
   },
   {
     "question": "What was the first Hello Kitty video game released outside Japan?",
-    "answer": "Hello Kitty World (NES, via Balloon Kid reskin)",
+    "answer": "Hello Kitty World",
     "difficulty": "hard",
     "incorrect_answers": ["Hello Kitty Roller Rescue", "Hello Kitty Island Adventure", "Hello Kitty Party"]
   },
@@ -298,6 +298,190 @@
     "answer": "She speaks from the heart rather than through words",
     "difficulty": "hard",
     "incorrect_answers": ["She cannot talk", "It makes animation easier", "It symbolizes shyness"]
+  },
+
+  //
+  // New 30 Questions Below
+  //
+
+  {
+    "question": "What color is Mimmy’s bow?",
+    "answer": "Yellow",
+    "difficulty": "easy",
+    "incorrect_answers": ["Red", "Pink", "Blue"]
+  },
+  {
+    "question": "What is Hello Kitty’s birthday?",
+    "answer": "November 1",
+    "difficulty": "easy",
+    "incorrect_answers": ["October 1", "December 1", "January 1"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s iconic pet dog?",
+    "answer": "Puppy",
+    "difficulty": "easy",
+    "incorrect_answers": ["Pochi", "Cookie", "Spot"]
+  },
+  {
+    "question": "What shape often appears on Hello Kitty’s outfit buttons?",
+    "answer": "Hearts",
+    "difficulty": "easy",
+    "incorrect_answers": ["Stars", "Bows", "Flowers"]
+  },
+  {
+    "question": "Which Sanrio character is a black-and-white penguin sometimes associated with Hello Kitty?",
+    "answer": "Badtz-Maru",
+    "difficulty": "easy",
+    "incorrect_answers": ["Keroppi", "Pekkle", "Tuxedosam"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s school?",
+    "answer": "London School",
+    "difficulty": "easy",
+    "incorrect_answers": ["Happy Academy", "Sanrio Prep", "Kitty Elementary"]
+  },
+  {
+    "question": "Hello Kitty often sends what type of item to her friends in official art?",
+    "answer": "Letters",
+    "difficulty": "easy",
+    "incorrect_answers": ["Gifts", "Cookies", "Drawings"]
+  },
+  {
+    "question": "What kind of pet is Charmmy Kitty modeled after?",
+    "answer": "A Persian cat",
+    "difficulty": "easy",
+    "incorrect_answers": ["A Siamese cat", "A British Shorthair", "A Calico cat"]
+  },
+  {
+    "question": "Which Sanrio character is known for loving music and has headphones in many designs?",
+    "answer": "DJ Hello Kitty",
+    "difficulty": "easy",
+    "incorrect_answers": ["My Melody", "Kuromi", "Dear Daniel"]
+  },
+  {
+    "question": "What type of animal is Chococat?",
+    "answer": "A cat",
+    "difficulty": "easy",
+    "incorrect_answers": ["A rabbit", "A squirrel", "A bear"]
+  },
+  {
+    "question": "What is Hello Kitty’s favorite hobby?",
+    "answer": "Baking cookies",
+    "difficulty": "medium",
+    "incorrect_answers": ["Dancing", "Drawing", "Singing"]
+  },
+  {
+    "question": "Which Sanrio character is a little sheep with a pink hood often seen with Hello Kitty?",
+    "answer": "Lala (from Little Twin Stars)",
+    "difficulty": "medium",
+    "incorrect_answers": ["Mewkledreamy", "Wish me mell", "Purin"]
+  },
+  {
+    "question": "What type of store did Hello Kitty’s mother work at in some early lore?",
+    "answer": "A bakery",
+    "difficulty": "medium",
+    "incorrect_answers": ["A flower shop", "A clothing store", "A toy shop"]
+  },
+  {
+    "question": "What is the name of Hello Kitty’s uncle, known for telling jokes?",
+    "answer": "Uncle Maurice",
+    "difficulty": "medium",
+    "incorrect_answers": ["Uncle Henry", "Uncle Albert", "Uncle Frederick"]
+  },
+  {
+    "question": "Which Sanrio character is a brown monkey who likes bananas and occasionally appears with Hello Kitty?",
+    "answer": "Monkichi",
+    "difficulty": "medium",
+    "incorrect_answers": ["Pekkle", "Pochacco", "Hangyodon"]
+  },
+  {
+    "question": "What is Hello Kitty’s favorite flower?",
+    "answer": "Daisies",
+    "difficulty": "medium",
+    "incorrect_answers": ["Tulips", "Roses", "Lilies"]
+  },
+  {
+    "question": "What is the name of the white kitten with a blue bow sometimes confused for Hello Kitty?",
+    "answer": "Cathy",
+    "difficulty": "medium",
+    "incorrect_answers": ["Millie", "Nina", "Yuki"]
+  },
+  {
+    "question": "In which decade did Hello Kitty become a global fashion icon beyond children’s merchandise?",
+    "answer": "1990s",
+    "difficulty": "medium",
+    "incorrect_answers": ["1980s", "2000s", "2010s"]
+  },
+  {
+    "question": "Which Sanrio character has a star-themed aesthetic and occasionally appears with Hello Kitty?",
+    "answer": "Kiki (from Little Twin Stars)",
+    "difficulty": "medium",
+    "incorrect_answers": ["Wish me mell", "Mewkledreamy", "Kuromi"]
+  },
+  {
+    "question": "What type of dress does Hello Kitty commonly wear in classic holiday-themed art?",
+    "answer": "A red winter dress",
+    "difficulty": "medium",
+    "incorrect_answers": ["A white ball gown", "A green coat", "A gold kimono"]
+  },
+  {
+    "question": "What was designer Yuko Shimizu’s main inspiration for Hello Kitty’s lack of a mouth?",
+    "answer": "To allow people to project their own emotions onto her",
+    "difficulty": "hard",
+    "incorrect_answers": ["To simplify animation", "To follow kawaii design rules", "To resemble vintage dolls"]
+  },
+  {
+    "question": "What is the name of the rarely mentioned second pet of Hello Kitty, a white Persian cat?",
+    "answer": "Snowy",
+    "difficulty": "hard",
+    "incorrect_answers": ["Puff", "Angel", "Princess"]
+  },
+  {
+    "question": "In early promotional materials, what specific European pastry was associated with Hello Kitty?",
+    "answer": "Shortbread",
+    "difficulty": "hard",
+    "incorrect_answers": ["Macarons", "Strudel", "Scones"]
+  },
+  {
+    "question": "What is the name of the 1993–1994 Hello Kitty anime series produced by Studio Pierrot?",
+    "answer": "Hello Kitty and Friends",
+    "difficulty": "hard",
+    "incorrect_answers": ["Kitty’s World", "The Adventures of Hello Kitty", "Hello Kitty Family Theater"]
+  },
+  {
+    "question": "What historical British children's literature character influenced Hello Kitty’s visual proportions?",
+    "answer": "Alice (from Alice’s Adventures in Wonderland)",
+    "difficulty": "hard",
+    "incorrect_answers": ["Peter Rabbit", "Paddington Bear", "Winnie-the-Pooh"]
+  },
+  {
+    "question": "What is the canonical name of the street Hello Kitty lives on?",
+    "answer": "Apple Lane",
+    "difficulty": "hard",
+    "incorrect_answers": ["Kitty Avenue", "Bow Street", "Maple Road"]
+  },
+  {
+    "question": "What unusual skill does Hello Kitty’s grandfather on her father’s side possess?",
+    "answer": "He can play the violin exceptionally well",
+    "difficulty": "hard",
+    "incorrect_answers": ["He can paint hyper-realistic art", "He can fix any machine", "He can bake award-winning pies"]
+  },
+  {
+    "question": "What was the first Sanrio character to crossover with Hello Kitty in a major co-branded product line?",
+    "answer": "My Melody",
+    "difficulty": "hard",
+    "incorrect_answers": ["Cinnamoroll", "Pochacco", "Keroppi"]
+  },
+  {
+    "question": "In the lore, Hello Kitty’s grandmother is known for making what distinctive craft item?",
+    "answer": "Patchwork quilts",
+    "difficulty": "hard",
+    "incorrect_answers": ["Knitted scarves", "Painted ceramics", "Stuffed animals"]
+  },
+  {
+    "question": "What is the name of the fictional town that appears in several vintage Hello Kitty books but is rarely referenced now?",
+    "answer": "Londonville",
+    "difficulty": "hard",
+    "incorrect_answers": ["Kittyton", "Bowshire", "Red Apple Village"]
   }
 ]
-
