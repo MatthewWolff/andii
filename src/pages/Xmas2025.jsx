@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ImageSlideshow from '../components/ImageSlideshow'
 import ImageGrid from '../components/ImageGrid'
 import ViewToggleButton from '../components/ViewToggleButton'
@@ -8,31 +8,38 @@ import './Xmas2025.css'
 
 function Xmas2025() {
     const [showGrid, setShowGrid] = useState(false)
+
+    useEffect(() => {
+        document.title = 'Merry Christmas! 🎄'
+        return () => {
+            document.title = "Andii's Site"
+        }
+    }, [])
     const images = [
-        './xmas-2025/andii_skiing_cute.jpg',
-        './xmas-2025/andii_pumpkin_forehead.jpg',
-        './xmas-2025/andii_fvded_bliss.jpg',
-        './xmas-2025/andii_vice.jpg',
-        './xmas-2025/andii_belmont_lounge_cute.jpg',
-        './xmas-2025/andii_valentine_gifts.jpg',
-        './xmas-2025/andii_portland.jpg',
-        './xmas-2025/andii_parking_lot_flowers.jpg',
-        './xmas-2025/andii_wine_yelp_pout.jpg',
-        './xmas-2025/andii_selfie_so_good.jpg',
-        './xmas-2025/andii_hot_tub_fireball_cabin.jpg',
-        './xmas-2025/andii_pumpkin_jump.jpg',
-        './xmas-2025/andii_pumpkin_selfie.jpg',
-        './xmas-2025/andii_sesame_ice_cream.jpg',
-        './xmas-2025/andii_pike_place_hat.jpg',
-        './xmas-2025/andii_fourth_of_july.jpg',
-        './xmas-2025/andii_wine_yelp_smooch.jpg',
-        './xmas-2025/andii_hand_splay.jpg',
-        './xmas-2025/andii_mew.jpg',
-        './xmas-2025/andii_goodbye_party_group.jpg',
-        './xmas-2025/andii_fvded_roll.jpg',
-        './xmas-2025/andii_bipoc_climbing_helmet.jpg',
-        './xmas-2025/andii_banana_bread_oooooh.jpg',
-        './xmas-2025/andii_power.jpg',
+        '/andii/xmas-2025/andii_skiing_cute.jpg',
+        '/andii/xmas-2025/andii_pumpkin_forehead.jpg',
+        '/andii/xmas-2025/andii_fvded_bliss.jpg',
+        '/andii/xmas-2025/andii_vice.jpg',
+        '/andii/xmas-2025/andii_belmont_lounge_cute.jpg',
+        '/andii/xmas-2025/andii_valentine_gifts.jpg',
+        '/andii/xmas-2025/andii_portland.jpg',
+        '/andii/xmas-2025/andii_parking_lot_flowers.jpg',
+        '/andii/xmas-2025/andii_wine_yelp_pout.jpg',
+        '/andii/xmas-2025/andii_selfie_so_good.jpg',
+        '/andii/xmas-2025/andii_hot_tub_fireball_cabin.jpg',
+        '/andii/xmas-2025/andii_pumpkin_jump.jpg',
+        '/andii/xmas-2025/andii_pumpkin_selfie.jpg',
+        '/andii/xmas-2025/andii_sesame_ice_cream.jpg',
+        '/andii/xmas-2025/andii_pike_place_hat.jpg',
+        '/andii/xmas-2025/andii_fourth_of_july.jpg',
+        '/andii/xmas-2025/andii_wine_yelp_smooch.jpg',
+        '/andii/xmas-2025/andii_hand_splay.jpg',
+        '/andii/xmas-2025/andii_mew.jpg',
+        '/andii/xmas-2025/andii_goodbye_party_group.jpg',
+        '/andii/xmas-2025/andii_fvded_roll.jpg',
+        '/andii/xmas-2025/andii_bipoc_climbing_helmet.jpg',
+        '/andii/xmas-2025/andii_banana_bread_oooooh.jpg',
+        '/andii/xmas-2025/andii_power.jpg',
     ]
 
     return (
@@ -45,11 +52,22 @@ function Xmas2025() {
                     <div className="content">
                         <h1>Merry Christmas! 🎄</h1>
                         <p>
-                            Wishing you a wonderful holiday season filled with
-                            joy, love, and happiness!
+                            Oh, my sweet. It has been a crazy year, and I'm glad
+                            to have gone through it with you. You're one of the
+                            best gifts I could ask for—you're patient, you're
+                            gentle, you communicate, and you stop at nothing to
+                            take care of me and bring me up.
                         </p>
                         <p>
-                            May this Christmas bring you warmth and cheer, and
+                            Whenever we're apart and I think about you and how
+                            incredible you are, my heart aches. You're one of a
+                            kind and I'm lucky to know you. NooOOoOOOobody is as
+                            sweet, enduring, and compassionate as you, and
+                            supporting you is an honor and duty I hope I can
+                            fulfill somewhere near as well as you do.
+                        </p>
+                        <p>
+                            May this Christmas bring us warmth and cheer, and
                             may the new year ahead be filled with endless
                             possibilities.
                         </p>
@@ -65,7 +83,7 @@ function Xmas2025() {
             />
 
             <SoundButton
-                audioSrc="./xmas-2025/minecraft-villager.mp3"
+                audioSrc="/andii/xmas-2025/minecraft-villager.mp3"
                 className="ough-btn"
             >
                 Ough
