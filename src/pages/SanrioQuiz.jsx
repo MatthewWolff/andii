@@ -36,9 +36,9 @@ function SanrioQuiz() {
             const allQuestions = await response.json()
             
             // Select questions by difficulty
-            const easy = allQuestions.filter(q => q.difficulty === 'easy').slice(0, 6)
-            const medium = allQuestions.filter(q => q.difficulty === 'medium').slice(0, 8)
-            const hard = allQuestions.filter(q => q.difficulty === 'hard').slice(0, 6)
+            const easy = allQuestions.filter(q => q.difficulty === 'easy').sort(() => Math.random() - 0.5).slice(0, 6)
+            const medium = allQuestions.filter(q => q.difficulty === 'medium').sort(() => Math.random() - 0.5).slice(0, 8)
+            const hard = allQuestions.filter(q => q.difficulty === 'hard').sort(() => Math.random() - 0.5).slice(0, 6)
             
             // Shuffle and combine
             const selectedQuestions = [...easy, ...medium, ...hard]
@@ -48,6 +48,16 @@ function SanrioQuiz() {
         } catch (error) {
             console.error('Failed to load questions:', error)
         }
+    }
+
+    const resetQuiz = () => {
+        setCurrentQuestion(0)
+        setScore(0)
+        setSelectedAnswer(null)
+        setShowResult(false)
+        setQuizComplete(false)
+        setShuffledAnswers([])
+        loadQuestions()
     }
 
     const handleAnswerClick = (answer) => {
@@ -84,7 +94,7 @@ function SanrioQuiz() {
         return (
             <div className="quiz-container">
                 <BackButton />
-                <QuizComplete score={score} total={20} />
+                <QuizComplete score={score} total={20} onRetry={resetQuiz} />
             </div>
         )
     }
