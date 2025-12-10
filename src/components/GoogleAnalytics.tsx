@@ -36,7 +36,7 @@ function GoogleAnalytics() {
             const getPageTitle = (pathname: string): string => {
                 switch (pathname) {
                     case '/':
-                        return 'home'
+                        return 'andii'
                     case '/xmas-2025/':
                         return 'xmas-2025'
                     case '/sanrio-quiz/':
