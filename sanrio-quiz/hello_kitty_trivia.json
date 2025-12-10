@@ -3,318 +3,448 @@
     "question": "What company created Hello Kitty?",
     "answer": "Sanrio",
     "difficulty": "easy",
-    "incorrect_answers": ["Bandai", "San‑X", "Toei Animation"]
+    "incorrect_answers": [
+      "Bandai",
+      "San‑X",
+      "Toei Animation"
+    ]
   },
   {
     "question": "What is Hello Kitty’s full name?",
     "answer": "Kitty White",
     "difficulty": "easy",
-    "incorrect_answers": ["Kitty Sakura", "Kitty London", "Kitty Smith"]
+    "incorrect_answers": [
+      "Kitty Sakura",
+      "Kitty London",
+      "Kitty Smith"
+    ]
   },
   {
     "question": "When is Hello Kitty’s birthday?",
     "answer": "November 1, 1974",
     "difficulty": "easy",
-    "incorrect_answers": ["October 1, 1974", "December 1, 1974", "January 1, 1974"]
+    "incorrect_answers": [
+      "October 1, 1974",
+      "December 1, 1974",
+      "January 1, 1974"
+    ]
   },
   {
     "question": "Where was Hello Kitty born?",
     "answer": "Suburbs of London, England",
     "difficulty": "easy",
-    "incorrect_answers": ["Tokyo, Japan", "Osaka, Japan", "New York, USA"]
+    "incorrect_answers": [
+      "Tokyo, Japan",
+      "Osaka, Japan",
+      "New York, USA"
+    ]
   },
   {
     "question": "How tall is Hello Kitty in her official profile?",
     "answer": "Five apples tall",
     "difficulty": "easy",
-    "incorrect_answers": ["Four apples tall", "Six apples tall", "Three apples tall"]
+    "incorrect_answers": [
+      "Four apples tall",
+      "Six apples tall",
+      "Three apples tall"
+    ]
   },
   {
     "question": "What type of food is Hello Kitty’s favorite?",
     "answer": "Mama’s homemade apple pie",
     "difficulty": "easy",
-    "incorrect_answers": ["Strawberry cake", "Chocolate cookies", "Vanilla pudding"]
+    "incorrect_answers": [
+      "Strawberry cake",
+      "Chocolate cookies",
+      "Vanilla pudding"
+    ]
   },
   {
     "question": "What are two of Hello Kitty’s official hobbies?",
     "answer": "Baking cookies and playing the piano",
     "difficulty": "easy",
-    "incorrect_answers": ["Swimming and dancing", "Painting and gardening", "Running and drawing"]
+    "incorrect_answers": [
+      "Swimming and dancing",
+      "Painting and gardening",
+      "Running and drawing"
+    ]
   },
   {
     "question": "What color is Hello Kitty’s signature bow (on her left ear)?",
     "answer": "Red",
     "difficulty": "easy",
-    "incorrect_answers": ["Pink", "Blue", "Yellow"]
+    "incorrect_answers": [
+      "Pink",
+      "Blue",
+      "Yellow"
+    ]
   },
   {
     "question": "What is the name of Hello Kitty’s twin sister?",
     "answer": "Mimmy White",
     "difficulty": "easy",
-    "incorrect_answers": ["Milly White", "Molly White", "Mandy White"]
+    "incorrect_answers": [
+      "Milly White",
+      "Molly White",
+      "Mandy White"
+    ]
   },
   {
     "question": "What color bow does Mimmy wear (on her right ear)?",
     "answer": "Yellow",
     "difficulty": "easy",
-    "incorrect_answers": ["Red", "Pink", "Blue"]
+    "incorrect_answers": [
+      "Red",
+      "Pink",
+      "Blue"
+    ]
   },
   {
     "question": "What blood type is Hello Kitty listed as having in her profile?",
     "answer": "A",
     "difficulty": "medium",
-    "incorrect_answers": ["B", "O", "AB"]
+    "incorrect_answers": [
+      "B",
+      "O",
+      "AB"
+    ]
   },
   {
     "question": "According to official sources, what is Hello Kitty’s species classification?",
     "answer": "A “little girl,” not a cat",
     "difficulty": "medium",
-    "incorrect_answers": ["An actual cat", "A rabbit", "A teddy bear"]
+    "incorrect_answers": [
+      "An actual cat",
+      "A rabbit",
+      "A teddy bear"
+    ]
   },
   {
     "question": "What grade is Hello Kitty described as being in (in her universe)?",
     "answer": "Third grade",
     "difficulty": "medium",
-    "incorrect_answers": ["First grade", "Second grade", "Fourth grade"]
+    "incorrect_answers": [
+      "First grade",
+      "Second grade",
+      "Fourth grade"
+    ]
   },
   {
     "question": "Name one of Hello Kitty’s parents.",
-    "answer": "Mary White (mother)",
+    "answer": "Mary White",
     "difficulty": "medium",
-    "incorrect_answers": ["Anna White", "Maria White", "Margaret White"]
+    "incorrect_answers": [
+      "Anna White",
+      "Maria White",
+      "Margaret White"
+    ]
   },
   {
     "question": "What is the name of Hello Kitty’s pet Persian cat?",
     "answer": "Charmmy Kitty",
     "difficulty": "medium",
-    "incorrect_answers": ["Snowy Kitty", "Fluffy Kitty", "Candy Kitty"]
+    "incorrect_answers": [
+      "Snowy Kitty",
+      "Fluffy Kitty",
+      "Candy Kitty"
+    ]
   },
   {
     "question": "Besides baking and piano, what other pastime is Hello Kitty described as liking in official lore?",
     "answer": "Reading",
     "difficulty": "medium",
-    "incorrect_answers": ["Swimming", "Dancing", "Painting"]
+    "incorrect_answers": [
+      "Swimming",
+      "Dancing",
+      "Painting"
+    ]
   },
   {
     "question": "What are Hello Kitty’s favorite school subjects (two of them)?",
     "answer": "English and music",
     "difficulty": "medium",
-    "incorrect_answers": ["Math and science", "History and art", "Geography and PE"]
+    "incorrect_answers": [
+      "Math and science",
+      "History and art",
+      "Geography and PE"
+    ]
   },
   {
     "question": "What is Hello Kitty’s dream job (one of them)?",
     "answer": "Pianist",
     "difficulty": "medium",
-    "incorrect_answers": ["Teacher", "Baker", "Artist"]
+    "incorrect_answers": [
+      "Teacher",
+      "Baker",
+      "Artist"
+    ]
   },
   {
     "question": "What other dream is mentioned for Hello Kitty besides pianist?",
     "answer": "Poet",
     "difficulty": "medium",
-    "incorrect_answers": ["Doctor", "Dancer", "Chef"]
-  },
-  {
-    "question": "What is Hello Kitty’s motto or core value according to official description?",
-    "answer": "Friendship / making friends",
-    "difficulty": "medium",
-    "incorrect_answers": ["Ambition", "Solitude", "Competition"]
+    "incorrect_answers": [
+      "Doctor",
+      "Dancer",
+      "Chef"
+    ]
   },
   {
     "question": "What is the name of the theme park most strongly associated with Hello Kitty in Tokyo?",
     "answer": "Sanrio Puroland",
     "difficulty": "medium",
-    "incorrect_answers": ["Harmonyland", "Tokyo Disneyland", "Sanrio Land"]
+    "incorrect_answers": [
+      "Harmonyland",
+      "Tokyo Disneyland",
+      "Sanrio Land"
+    ]
   },
   {
     "question": "In what year was Hello Kitty first created by Sanrio?",
     "answer": "1974",
     "difficulty": "medium",
-    "incorrect_answers": ["1970", "1972", "1976"]
+    "incorrect_answers": [
+      "1970",
+      "1972",
+      "1976"
+    ]
   },
   {
     "question": "What was the very first type of product Hello Kitty appeared on (in Japan)?",
     "answer": "A vinyl coin purse",
     "difficulty": "medium",
-    "incorrect_answers": ["A notebook", "A pencil case", "A toy doll"]
+    "incorrect_answers": [
+      "A notebook",
+      "A pencil case",
+      "A toy doll"
+    ]
   },
   {
     "question": "Which ear does Hello Kitty wear her bow on?",
     "answer": "Left",
     "difficulty": "medium",
-    "incorrect_answers": ["Right"]
+    "incorrect_answers": [
+      "Right"
+    ]
   },
   {
     "question": "What is Hello Kitty’s official weight (in the same “apples” scale)?",
     "answer": "Three apples",
     "difficulty": "medium",
-    "incorrect_answers": ["Two apples", "Four apples", "Five apples"]
+    "incorrect_answers": [
+      "Two apples",
+      "Four apples",
+      "Five apples"
+    ]
   },
   {
     "question": "What kind of pie is Hello Kitty’s favorite homemade dessert?",
     "answer": "Apple pie",
     "difficulty": "medium",
-    "incorrect_answers": ["Cherry pie", "Pumpkin pie", "Strawberry pie"]
+    "incorrect_answers": [
+      "Cherry pie",
+      "Pumpkin pie",
+      "Strawberry pie"
+    ]
   },
   {
     "question": "What is Hello Kitty’s color preference listed among her favorite things?",
     "answer": "Red",
     "difficulty": "medium",
-    "incorrect_answers": ["Blue", "Pink", "Yellow"]
+    "incorrect_answers": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ]
   },
   {
-    "question": "What attitude or personality trait is associated with Hello Kitty (bright, kind‑hearted, friendly)?",
+    "question": "What attitude or personality trait is associated with Hello Kitty?",
     "answer": "Kind-hearted and friendly",
-    "difficulty": "medium",
-    "incorrect_answers": ["Grumpy", "Shy", "Serious"]
+    "difficulty": "easy",
+    "incorrect_answers": [
+      "Grumpy",
+      "Shy",
+      "Serious"
+    ]
   },
   {
     "question": "What animal features does Hello Kitty have (despite being described as a girl)?",
-    "answer": "Pointed ears and whiskers",
+    "answer": "Whiskers",
     "difficulty": "hard",
-    "incorrect_answers": ["Wings", "A horn", "Scales"]
+    "incorrect_answers": [
+      "Wings",
+      "A horn",
+      "Scales"
+    ]
   },
   {
     "question": "What year did Sanrio clarify publicly that Hello Kitty is a girl and not a cat?",
     "answer": "2014",
     "difficulty": "hard",
-    "incorrect_answers": ["2010", "2016", "2008"]
+    "incorrect_answers": [
+      "2010",
+      "2016",
+      "2008"
+    ]
   },
   {
     "question": "In what country (outside Japan) does Hello Kitty’s birthplace lore place her origin?",
     "answer": "England",
     "difficulty": "hard",
-    "incorrect_answers": ["France", "United States", "Germany"]
+    "incorrect_answers": [
+      "France",
+      "United States",
+      "Germany"
+    ]
   },
   {
-    "question": "Which pet hamster is officially listed as belonging to Hello Kitty (per some profiles)?",
+    "question": "Which pet hamster is officially listed as belonging to Hello Kitty?",
     "answer": "Sugar",
     "difficulty": "medium",
-    "incorrect_answers": ["Honey", "Cookie", "Puffy"]
+    "incorrect_answers": [
+      "Honey",
+      "Cookie",
+      "Puffy"
+    ]
   },
   {
-    "question": "Which of these is NOT listed among Hello Kitty’s hobbies in her official profile: baking cookies, playing piano, or skateboarding?",
+    "question": "Which of these is NOT listed among Hello Kitty’s hobbies in her official profile?",
     "answer": "Skateboarding",
     "difficulty": "medium",
-    "incorrect_answers": ["Traveling", "Reading", "Collecting cute things"]
+    "incorrect_answers": [
+      "Baking cookies",
+      "Playing piano",
+      "Collecting cute things"
+    ]
   },
   {
     "question": "What does Hello Kitty love making most according to her character message?",
     "answer": "Friends",
     "difficulty": "medium",
-    "incorrect_answers": ["Money", "Toys", "Food"]
+    "incorrect_answers": [
+      "Money",
+      "Laughs",
+      "Food"
+    ]
   },
   {
     "question": "What nationality (by birthplace lore) is Hello Kitty considered to have?",
-    "answer": "British (English)",
+    "answer": "British",
     "difficulty": "hard",
-    "incorrect_answers": ["Japanese", "American", "Canadian"]
-  },
-  {
-    "question": "What generation (grade level) is Hello Kitty described as being in her fictional world?",
-    "answer": "Third grade",
-    "difficulty": "medium",
-    "incorrect_answers": ["First grade", "Second grade", "Fourth grade"]
-  },
-  {
-    "question": "What are two of Hello Kitty’s favorite academic subjects?",
-    "answer": "Music and art",
-    "difficulty": "medium",
-    "incorrect_answers": ["Math and science", "History and geography", "Physical education and biology"]
+    "incorrect_answers": [
+      "Japanese",
+      "American",
+      "Canadian"
+    ]
   },
   {
     "question": "What is the surname of Hello Kitty’s family?",
     "answer": "White",
     "difficulty": "medium",
-    "incorrect_answers": ["Smith", "Brown", "Black"]
+    "incorrect_answers": [
+      "Smith",
+      "Brown",
+      "Black"
+    ]
   },
   {
     "question": "What design accessory is Hello Kitty most recognized for wearing on her head?",
     "answer": "A red bow",
     "difficulty": "easy",
-    "incorrect_answers": ["A crown", "A hat", "A ribbon on her tail"]
+    "incorrect_answers": [
+      "A crown",
+      "A hat",
+      "A ribbon on her tail"
+    ]
   },
   {
     "question": "Which of these is among Hello Kitty’s stated dreams for future aspiration?",
     "answer": "Becoming a pianist",
     "difficulty": "medium",
-    "incorrect_answers": ["Becoming a doctor", "Becoming a scientist", "Becoming a dancer"]
+    "incorrect_answers": [
+      "Becoming a doctor",
+      "Becoming a scientist",
+      "Becoming a dancer"
+    ]
   },
   {
     "question": "What form of media helped Hello Kitty become internationally famous beyond Japan during the 1980s? (e.g., merchandise expansion, cartoon series, etc.)",
-    "answer": "Merchandise (school supplies, personal care items, accessories)",
+    "answer": "Merchandise",
     "difficulty": "medium",
-    "incorrect_answers": ["Live‑action films", "Video games", "Radio shows"]
+    "incorrect_answers": [
+      "Live‑action films",
+      "Video games",
+      "Radio shows"
+    ]
   },
   {
     "question": "According to official lore, with whom does Hello Kitty live?",
     "answer": "Her parents and her twin sister Mimmy",
     "difficulty": "medium",
-    "incorrect_answers": ["Her grandparents", "Her pet only", "Alone"]
+    "incorrect_answers": [
+      "Her grandparents",
+      "Her pet only",
+      "Alone"
+    ]
   },
   {
     "question": "What kind of aesthetic values—beyond cuteness—does Hello Kitty symbolize according to commentary about her design? (per Sanrio and cultural analysis)",
     "answer": "Friendship and kindness",
     "difficulty": "hard",
-    "incorrect_answers": ["Aggression and competition", "Mystery and magic", "Isolation and rebellion"]
-  },
-  {
-    "question": "What is Hello Kitty’s blood type according to her official profile?",
-    "answer": "A",
-    "difficulty": "hard",
-    "incorrect_answers": ["B", "O", "AB"]
-  },
-  {
-    "question": "What is Hello Kitty’s stated dream job besides being a pianist?",
-    "answer": "Poet",
-    "difficulty": "hard",
-    "incorrect_answers": ["Teacher", "Chef", "Dancer"]
+    "incorrect_answers": [
+      "Aggression and competition",
+      "Mystery and magic",
+      "Isolation and rebellion"
+    ]
   },
   {
     "question": "Which pet hamster belongs to Hello Kitty according to official profiles?",
     "answer": "Sugar",
     "difficulty": "hard",
-    "incorrect_answers": ["Honey", "Cookie", "Puffy"]
-  },
-  {
-    "question": "What grade is Hello Kitty described as being in her fictional world?",
-    "answer": "Third grade",
-    "difficulty": "hard",
-    "incorrect_answers": ["First grade", "Second grade", "Fourth grade"]
-  },
-  {
-    "question": "What year did Sanrio publicly clarify that Hello Kitty is a girl and not a cat?",
-    "answer": "2014",
-    "difficulty": "hard",
-    "incorrect_answers": ["2010", "2016", "2008"]
+    "incorrect_answers": [
+      "Honey",
+      "Cookie",
+      "Puffy"
+    ]
   },
   {
     "question": "In what country outside Japan is Hello Kitty’s birthplace officially stated to be?",
     "answer": "England",
     "difficulty": "hard",
-    "incorrect_answers": ["France", "United States", "Germany"]
+    "incorrect_answers": [
+      "France",
+      "United States",
+      "Germany"
+    ]
   },
   {
     "question": "What is Hello Kitty’s surname according to her official family profile?",
     "answer": "White",
     "difficulty": "hard",
-    "incorrect_answers": ["Smith", "Brown", "Black"]
+    "incorrect_answers": [
+      "Smith",
+      "Brown",
+      "Black"
+    ]
   },
   {
     "question": "What core value or motto is Hello Kitty said to embody according to official descriptions?",
     "answer": "Friendship and kindness",
     "difficulty": "hard",
-    "incorrect_answers": ["Ambition", "Competition", "Independence"]
+    "incorrect_answers": [
+      "Ambition",
+      "Competition",
+      "Independence"
+    ]
   },
   {
     "question": "How is Hello Kitty officially described in terms of species?",
     "answer": "A little girl, not a cat",
     "difficulty": "hard",
-    "incorrect_answers": ["A cat", "A rabbit", "A teddy bear"]
-  },
-  {
-    "question": "Which official Sanrio theme park in Japan features Hello Kitty as the main character?",
-    "answer": "Sanrio Puroland",
-    "difficulty": "hard",
-    "incorrect_answers": ["Harmonyland", "Tokyo Disneyland", "KidZania"]
+    "incorrect_answers": [
+      "A cat",
+      "A rabbit",
+      "A teddy bear"
+    ]
   }
 ]
