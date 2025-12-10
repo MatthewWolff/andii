@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
+import GoogleAnalytics from './components/GoogleAnalytics'
 import Home from './pages/Home'
 import Xmas2025 from './pages/Xmas2025'
 import SanrioQuiz from './pages/SanrioQuiz'
@@ -17,11 +18,14 @@ function App() {
     }, [navigate])
 
     return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/xmas-2025/" element={<Xmas2025 />} />
-            <Route path="/sanrio-quiz/" element={<SanrioQuiz />} />
-        </Routes>
+        <>
+            <GoogleAnalytics />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/xmas-2025/" element={<Xmas2025 />} />
+                <Route path="/sanrio-quiz/" element={<SanrioQuiz />} />
+            </Routes>
+        </>
     )
 }
 
