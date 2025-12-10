@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import BackButton from '../components/BackButton'
+import ScoreDisplay from '../components/ScoreDisplay'
+import QuizQuestion from '../components/QuizQuestion'
+import QuizComplete from '../components/QuizComplete'
 import './SanrioQuiz.css'
 
 function SanrioQuiz() {
@@ -68,15 +71,6 @@ function SanrioQuiz() {
         }, 1500)
     }
 
-    const getScoreMessage = () => {
-        const percentage = (score / 20) * 100
-        if (percentage >= 90) return "Amazing! You're a Sanrio expert! 🌟"
-        if (percentage >= 75) return "Great job! You know your Sanrio! 🎀"
-        if (percentage >= 60) return "Not bad! Keep learning about Sanrio! 💕"
-        if (percentage >= 40) return "Good try! Time to brush up on Sanrio! 📚"
-        return "Keep studying! Sanrio has so much to discover! 🌸"
-    }
-
     if (questions.length === 0) {
         return (
             <div className="quiz-container">
@@ -90,13 +84,7 @@ function SanrioQuiz() {
         return (
             <div className="quiz-container">
                 <BackButton />
-                <div className="quiz-complete">
-                    <h1>Quiz Complete! 🎉</h1>
-                    <div className="final-score">
-                        <div className="score-number">{score}/20</div>
-                        <div className="score-message">{getScoreMessage()}</div>
-                    </div>
-                </div>
+                <QuizComplete score={score} total={20} />
             </div>
         )
     }
@@ -106,33 +94,18 @@ function SanrioQuiz() {
     return (
         <div className="quiz-container">
             <BackButton />
-            <div className="score-display">Score: {score}/20</div>
+            <ScoreDisplay score={score} total={20} />
             
-            <div className="question-container">
-                <div className="question-number">Question {currentQuestion + 1}/20</div>
-                <h2 className="question">{currentQ.question}</h2>
-                
-                <div className="answers-grid">
-                    {shuffledAnswers.map((answer, index) => (
-                        <button
-                            key={index}
-                            className={`answer-button ${
-                                showResult
-                                    ? answer === currentQ.answer
-                                        ? 'correct'
-                                        : selectedAnswer === answer
-                                        ? 'incorrect'
-                                        : 'neutral'
-                                    : ''
-                            }`}
-                            onClick={() => handleAnswerClick(answer)}
-                            disabled={selectedAnswer !== null}
-                        >
-                            {answer}
-                        </button>
-                    ))}
-                </div>
-            </div>
+            <QuizQuestion
+                questionNumber={currentQuestion + 1}
+                totalQuestions={20}
+                question={currentQ.question}
+                answers={shuffledAnswers}
+                selectedAnswer={selectedAnswer}
+                correctAnswer={currentQ.answer}
+                showResult={showResult}
+                onAnswerClick={handleAnswerClick}
+            />
         </div>
     )
 }
