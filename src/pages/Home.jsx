@@ -4,24 +4,24 @@ import FallingIcons from '../components/FallingIcons'
 import './Home.css'
 
 function Home() {
-  const handleBirthdayClick = () => {
-    window.location.href = 'https://wolff.sh/AndiiBirthday/'
-  }
+    const handleBirthdayClick = () => {
+        window.location.href = 'https://wolff.sh/AndiiBirthday/'
+    }
 
-  return (
-    <div className="home">
-      <FallingIcons />
-      <h1>:3</h1>
-      <nav className="menu">
-        <Link to="/xmas-2025" className="menu-item">
-          Merry Christmas! 🎄
-        </Link>
-        <button onClick={handleBirthdayClick} className="menu-item">
-          Andii's Birthday 🎉
-        </button>
-      </nav>
-    </div>
-  )
+    return (
+        <div className="home">
+            <FallingIcons />
+            <h1>:3</h1>
+            <nav className="menu">
+                <Link to="/xmas-2025" className="menu-item">
+                    Merry Christmas! 🎄
+                </Link>
+                <button onClick={handleBirthdayClick} className="menu-item">
+                    Andii's Birthday 🎉
+                </button>
+            </nav>
+        </div>
+    )
 }
 
 export default Home
