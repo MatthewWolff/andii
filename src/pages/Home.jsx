@@ -13,12 +13,12 @@ function Home() {
       <FallingIcons />
       <h1>:3</h1>
       <nav className="menu">
-        <button onClick={handleBirthdayClick} className="menu-item">
-          Andii's Birthday 🎉
-        </button>
         <Link to="/xmas-2025" className="menu-item">
           Merry Christmas! 🎄
         </Link>
+        <button onClick={handleBirthdayClick} className="menu-item">
+          Andii's Birthday 🎉
+        </button>
       </nav>
     </div>
   )
