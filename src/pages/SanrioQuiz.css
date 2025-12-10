@@ -13,7 +13,7 @@
     padding: 10px 15px;
     border-radius: 20px;
     font-weight: bold;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 100;
 }
 
@@ -30,7 +30,7 @@
     background: white;
     border-radius: 20px;
     padding: 30px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .question-number {
@@ -98,7 +98,7 @@
     background: white;
     border-radius: 20px;
     padding: 40px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .quiz-complete h1 {
@@ -145,16 +145,16 @@
     .quiz-container {
         padding: 10px;
     }
-    
+
     .question-container {
         margin-top: 60px;
         padding: 20px;
     }
-    
+
     .question {
         font-size: 20px;
     }
-    
+
     .answer-button {
         padding: 15px;
         font-size: 14px;

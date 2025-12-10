@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
 
-function FallingIcons({ iconSrc = '/andii/favicon/favicon.ico', spawnRate = 2000 }) {
+function FallingIcons({
+    iconSrc = '/andii/favicon/favicon.ico',
+    spawnRate = 2000,
+}) {
     useEffect(() => {
         const createFallingIcon = () => {
             const icon = document.createElement('img')

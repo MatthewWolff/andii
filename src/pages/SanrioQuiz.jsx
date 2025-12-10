@@ -25,25 +25,40 @@ function SanrioQuiz() {
     useEffect(() => {
         if (questions.length > 0) {
             const currentQ = questions[currentQuestion]
-            const allAnswers = [currentQ.answer, ...currentQ.incorrect_answers].sort(() => Math.random() - 0.5)
+            const allAnswers = [
+                currentQ.answer,
+                ...currentQ.incorrect_answers,
+            ].sort(() => Math.random() - 0.5)
             setShuffledAnswers(allAnswers)
         }
     }, [currentQuestion, questions])
 
     const loadQuestions = async () => {
         try {
-            const response = await fetch('/andii/sanrio-quiz/hello_kitty_trivia.json')
+            const response = await fetch(
+                '/andii/sanrio-quiz/hello_kitty_trivia.json'
+            )
             const allQuestions = await response.json()
-            
+
             // Select questions by difficulty
-            const easy = allQuestions.filter(q => q.difficulty === 'easy').sort(() => Math.random() - 0.5).slice(0, 3)
-            const medium = allQuestions.filter(q => q.difficulty === 'medium').sort(() => Math.random() - 0.5).slice(0, 4)
-            const hard = allQuestions.filter(q => q.difficulty === 'hard').sort(() => Math.random() - 0.5).slice(0, 3)
-            
-            // Shuffle and combine
-            const selectedQuestions = [...easy, ...medium, ...hard]
+            const easy = allQuestions
+                .filter((q) => q.difficulty === 'easy')
                 .sort(() => Math.random() - 0.5)
-            
+                .slice(0, 3)
+            const medium = allQuestions
+                .filter((q) => q.difficulty === 'medium')
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 4)
+            const hard = allQuestions
+                .filter((q) => q.difficulty === 'hard')
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 3)
+
+            // Shuffle and combine
+            const selectedQuestions = [...easy, ...medium, ...hard].sort(
+                () => Math.random() - 0.5
+            )
+
             setQuestions(selectedQuestions)
         } catch (error) {
             console.error('Failed to load questions:', error)
@@ -62,14 +77,14 @@ function SanrioQuiz() {
 
     const handleAnswerClick = (answer) => {
         if (selectedAnswer) return
-        
+
         setSelectedAnswer(answer)
         setShowResult(true)
-        
+
         if (answer === questions[currentQuestion].answer) {
             setScore(score + 1)
         }
-        
+
         setTimeout(() => {
             if (currentQuestion + 1 < questions.length) {
                 setCurrentQuestion(currentQuestion + 1)
@@ -105,7 +120,7 @@ function SanrioQuiz() {
         <div className="quiz-container">
             <BackButton />
             <ScoreDisplay score={score} total={10} />
-            
+
             <QuizQuestion
                 questionNumber={currentQuestion + 1}
                 totalQuestions={10}

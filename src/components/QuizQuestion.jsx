@@ -1,20 +1,22 @@
 import React from 'react'
 
-function QuizQuestion({ 
-    questionNumber, 
-    totalQuestions, 
-    question, 
-    answers, 
-    selectedAnswer, 
-    correctAnswer, 
-    showResult, 
-    onAnswerClick 
+function QuizQuestion({
+    questionNumber,
+    totalQuestions,
+    question,
+    answers,
+    selectedAnswer,
+    correctAnswer,
+    showResult,
+    onAnswerClick,
 }) {
     return (
         <div className="question-container">
-            <div className="question-number">Question {questionNumber}/{totalQuestions}</div>
+            <div className="question-number">
+                Question {questionNumber}/{totalQuestions}
+            </div>
             <h2 className="question">{question}</h2>
-            
+
             <div className="answers-grid">
                 {answers.map((answer, index) => (
                     <button
@@ -24,8 +26,8 @@ function QuizQuestion({
                                 ? answer === correctAnswer
                                     ? 'correct'
                                     : selectedAnswer === answer
-                                    ? 'incorrect'
-                                    : 'neutral'
+                                      ? 'incorrect'
+                                      : 'neutral'
                                 : ''
                         }`}
                         onClick={() => onAnswerClick(answer)}

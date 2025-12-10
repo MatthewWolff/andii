@@ -6,7 +6,7 @@ import SanrioQuiz from './pages/SanrioQuiz'
 
 function App() {
     const navigate = useNavigate()
-    
+
     useEffect(() => {
         // Handle 404 redirects with hash
         const hash = window.location.hash
