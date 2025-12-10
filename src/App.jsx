@@ -1,8 +1,20 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Xmas2025 from './pages/Xmas2025'
 
 function App() {
+    const navigate = useNavigate()
+    
+    useEffect(() => {
+        // Handle 404 redirects with hash
+        const hash = window.location.hash
+        if (hash && hash.startsWith('#/andii/')) {
+            const path = hash.replace('#/andii', '')
+            navigate(path, { replace: true })
+        }
+    }, [navigate])
+
     return (
         <Routes>
             <Route path="/" element={<Home />} />
