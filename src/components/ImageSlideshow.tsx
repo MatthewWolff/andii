@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 function ImageSlideshow({ images, isActive }) {
     const [currentImage, setCurrentImage] = useState(0)

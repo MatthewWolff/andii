@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ImageGrid({ images }) {
     return (
         <div className="image-grid-container">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import BackButton from '../components/BackButton'
 import ScoreDisplay from '../components/ScoreDisplay'
 import QuizQuestion from '../components/QuizQuestion'

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function SoundButton({ audioSrc, children, className = 'sound-btn' }) {
     const [isPlaying, setIsPlaying] = useState(false)

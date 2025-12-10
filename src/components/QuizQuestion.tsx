@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface QuizQuestionProps {
     questionNumber: number
     totalQuestions: number

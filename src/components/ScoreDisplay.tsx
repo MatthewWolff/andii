@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface ScoreDisplayProps {
     score: number
     total: number
