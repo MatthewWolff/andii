@@ -2,7 +2,10 @@
 <html>
 <head>
     <script>
-        window.location.replace('/andii/?from=404');
+        // Preserve the path for React Router
+        const path = window.location.pathname;
+        const search = window.location.search;
+        window.location.replace('/andii/' + (search ? search + '&from=404' : '?from=404') + '#' + path);
     </script>
 </head>
 <body></body>
