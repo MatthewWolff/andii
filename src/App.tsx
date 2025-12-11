@@ -15,8 +15,8 @@ function App() {
     useEffect(() => {
         // Handle 404 redirects with hash
         const hash = window.location.hash
-        if (hash && hash.startsWith('#/andii/')) {
-            const path = hash.replace('#/andii', '')
+        if (hash && hash.startsWith('#/')) {
+            const path = hash.replace('#', '')
             navigate(path, { replace: true })
         }
     }, [navigate])
