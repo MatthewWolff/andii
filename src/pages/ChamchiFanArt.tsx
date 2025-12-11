@@ -48,8 +48,9 @@ function ChamchiFanArt() {
             <div className="chamchi-header">
                 <h1 className="chamchi-title">Chamchi Fan Art Gallery</h1>
                 <p className="chamchi-description">
-                    A precious collection of hand-drawn masterpieces celebrating
-                    our beloved fluffy overlord
+                    I paid a bunch of artists on Fiverr to pay tribute to
+                    Chamchi and all of his mischievous excellence. Look at the
+                    beautiful boy. Look at our precious goblin.
                 </p>
             </div>
 

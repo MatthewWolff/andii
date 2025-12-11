@@ -32,7 +32,7 @@ function ArtworkCard({ imageSrc, title, artist, media }: ArtworkCardProps) {
                 alt={title}
                 style={{
                     width: '100%',
-                    height: '200px',
+                    height: '250px',
                     objectFit: 'cover',
                     borderRadius: '10px',
                     marginBottom: '15px',
