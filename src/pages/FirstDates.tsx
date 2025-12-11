@@ -92,7 +92,7 @@ function FirstDates() {
         <div className="first-dates-container">
             <BackButton />
             <div className="first-dates-header">
-                <h1 className="first-dates-title">20 First Dates</h1>
+                <h1 className="first-dates-title">Our First Dates</h1>
                 <p className="first-dates-instructions">
                     Arrange our first dates in chronological order! (I am using
                     "dates" a bit loosely :3)
