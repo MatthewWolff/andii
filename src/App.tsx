@@ -8,6 +8,7 @@ import Birthday from './pages/Birthday'
 import Crossword from './pages/Crossword'
 import FirstDates from './pages/FirstDates'
 import ChamchiFanArt from './pages/ChamchiFanArt'
+import NotFound from './pages/NotFound'
 
 function App() {
     const navigate = useNavigate()
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/crossword/" element={<Crossword />} />
                 <Route path="/first-dates/" element={<FirstDates />} />
                 <Route path="/chamchi-fan-art/" element={<ChamchiFanArt />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </>
     )
