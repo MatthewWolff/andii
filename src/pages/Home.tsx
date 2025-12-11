@@ -24,7 +24,7 @@ function Home() {
                             The Crossword 🧩
                         </Link>
                         <Link to="/first-dates/" className="menu-item">
-                            15 First Dates 💕
+                            20 First Dates 💕
                         </Link>
                         <Link to="/chamchi-fan-art/" className="menu-item">
                             Chamchi Fan Art 🎨
