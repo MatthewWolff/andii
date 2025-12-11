@@ -66,15 +66,15 @@ function Xmas2025() {
                         <p>
                             Whenever we're apart and I think about you and how
                             incredible you are, my heart aches. You're one of a
-                            kind and I'm lucky to know you. NooOOoOOOobody is as
-                            sweet, enduring, and compassionate as you, and
-                            supporting you is an honor and duty I hope I can
-                            fulfill somewhere near as well as you do.
+                            kind and I'm lucky to know you. NooOOoOOobody is as
+                            sweet, enduring, and compassionate. Supporting you
+                            is an honor and duty I hope I can fulfill somewhere
+                            near as well as you do.
                         </p>
                         <p>
                             May this Christmas bring us warmth and cheer, and
-                            may the new year ahead be filled with endless
-                            possibilities.
+                            may the new year ahead be filled with joy and love
+                            :3
                         </p>
                     </div>
                 </>
