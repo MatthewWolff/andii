@@ -20,16 +20,16 @@ function Home() {
                     <span>Sanrio Quiz</span>
                     <span>🎀</span>
                 </Link>
+                <Link to="/crossword/" className="menu-item">
+                    <span>The Crossword</span>
+                    <span>🧩</span>
+                </Link>
                 <Link to="/first-dates/" className="menu-item">
                     <span>20 First Dates</span>
                     <span>💕</span>
                 </Link>
                 {isLocalhost && (
                     <>
-                        <Link to="/crossword/" className="menu-item">
-                            <span>The Crossword</span>
-                            <span>🧩</span>
-                        </Link>
                         <Link to="/chamchi-fan-art/" className="menu-item">
                             <span>Chamchi Fan Art</span>
                             <span>🎨</span>
