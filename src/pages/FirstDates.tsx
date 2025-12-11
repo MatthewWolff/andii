@@ -13,6 +13,8 @@ function FirstDates() {
     const [isComplete, setIsComplete] = useState(false)
     const [score, setScore] = useState(0)
     const [draggedIndex, setDraggedIndex] = useState<number | null>(null)
+    const [touchUsed, setTouchUsed] = useState(false)
+    const [showDates, setShowDates] = useState(false)
 
     useEffect(() => {
         loadDates()
@@ -54,14 +56,27 @@ function FirstDates() {
     }
 
     const handleTouchStart = (index: number) => {
-        setDraggedIndex(index)
+        setTouchUsed(true)
+        handleCardClick(index)
     }
 
-    const handleTouchEnd = (targetIndex: number) => {
-        if (draggedIndex !== null && draggedIndex !== targetIndex) {
-            moveDate(draggedIndex, targetIndex)
+    const handleCardClick = (targetIndex: number) => {
+        if (touchUsed) {
+            setTouchUsed(false)
+            return
         }
-        setDraggedIndex(null)
+
+        if (draggedIndex === null) {
+            // First tap - select this card
+            setDraggedIndex(targetIndex)
+        } else if (draggedIndex === targetIndex) {
+            // Tapping the same card - deselect
+            setDraggedIndex(null)
+        } else {
+            // Second tap on different card - swap them
+            moveDate(draggedIndex, targetIndex)
+            setDraggedIndex(null)
+        }
     }
 
     if (dates.length === 0) {
@@ -98,6 +113,12 @@ function FirstDates() {
                     >
                         Shuffle Again
                     </button>
+                    <button
+                        onClick={() => setShowDates(!showDates)}
+                        className="first-dates-button first-dates-button-secondary"
+                    >
+                        {showDates ? 'Hide Dates' : 'Show Dates'}
+                    </button>
                 </div>
                 {score > 0 && (
                     <p
@@ -115,7 +136,7 @@ function FirstDates() {
                     <div
                         key={`${date.activity}-${index}`}
                         className={`first-dates-card ${draggedIndex === index ? 'first-dates-card-selected' : ''}`}
-                        onClick={() => handleTouchEnd(index)}
+                        onClick={() => handleCardClick(index)}
                         onTouchStart={() => handleTouchStart(index)}
                         draggable
                         onDragStart={(e) =>
@@ -136,7 +157,11 @@ function FirstDates() {
                         <div className="first-dates-card-activity">
                             {date.activity}
                         </div>
-                        <div className="first-dates-card-date">{date.date}</div>
+                        {showDates && (
+                            <div className="first-dates-card-date">
+                                {date.date}
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
