@@ -3,8 +3,14 @@ import BackButton from '../components/BackButton'
 import ScoreDisplay from '../components/ScoreDisplay'
 import QuizQuestion from '../components/QuizQuestion'
 import QuizComplete from '../components/QuizComplete'
-import { Question } from '../types/quiz'
 import './SanrioQuiz.css'
+
+interface Question {
+    question: string
+    answer: string
+    difficulty: 'easy' | 'medium' | 'hard'
+    incorrect_answers: string[]
+}
 
 function SanrioQuiz() {
     const [questions, setQuestions] = useState<Question[]>([])

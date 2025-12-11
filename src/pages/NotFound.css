@@ -1,0 +1,60 @@
+.not-found-container {
+    background-color: #ccccff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.not-found-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.not-found-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 0 20px 0;
+}
+
+.not-found-subtitle {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin: 0 0 30px 0;
+    font-weight: normal;
+}
+
+.not-found-message {
+    font-size: 1.2rem;
+    margin: 0 0 40px 0;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.not-found-button {
+    padding: 15px 30px;
+    background-color: #f3b2cb;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition:
+        transform 0.2s,
+        background-color 0.2s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.not-found-button:hover {
+    transform: scale(1.05);
+    background-color: #f5c4d8;
+    color: #333;
+    text-decoration: none;
+}
