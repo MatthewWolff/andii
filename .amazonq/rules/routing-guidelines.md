@@ -37,7 +37,7 @@ For every new page route, create a static HTML file to enable social media previ
     
     <script>
         // Redirect to main app with route in hash
-        window.location.replace('/andii/#/andii/{route-name}/');
+        window.location.replace('/andii/#/{route-name}/');
     </script>
 </head>
 <body>
@@ -54,8 +54,8 @@ The App component handles hash-based redirects from static HTML files:
 useEffect(() => {
     // Handle 404 redirects with hash
     const hash = window.location.hash
-    if (hash && hash.startsWith('#/andii/')) {
-        const path = hash.replace('#/andii', '')
+    if (hash && hash.startsWith('#/')) {
+        const path = hash.replace('#', '')
         navigate(path, { replace: true })
     }
 }, [navigate])
@@ -95,6 +95,6 @@ When adding a new page route:
 
 - **Never** create routes without trailing slashes
 - **Never** forget to create the static HTML file for new routes
-- **Always** use the hash redirect format: `/andii/#/andii/{route}/`
+- **Always** use the hash redirect format: `/andii/#/{route}/`
 - **Always** include proper Open Graph and Twitter meta tags
 - **Always** test deployment and verify static files are served correctly

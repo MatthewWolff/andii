@@ -4,17 +4,21 @@ A personal website built with React and Vite, featuring interactive pages and ga
 
 ## 🌟 Features
 
-- **Home Page** - Navigation hub with falling favicon animation
-- **Christmas 2025** - Photo slideshow with grid view toggle and audio effects
+- **Home Page** - Navigation hub with falling favicon animation and Christmas image preloading
+- **Christmas 2025** - Photo slideshow with grid view toggle, modal viewer, and audio effects
 - **Sanrio Quiz** - Interactive trivia game with 10 questions across 3 difficulty levels
-- **Birthday Page** - Static HTML birthday celebration (external redirect)
+- **20 First Dates** - Tap-to-swap minigame to arrange dates chronologically
+- **The Crossword** - Embedded personalized crossword puzzle with custom clues
+- **Chamchi Fan Art** - Gallery of 6 artwork cards in polaroid style with 2×3 desktop layout
+- **Birthday Page** - Static HTML birthday celebration with Bootstrap carousel
+- **404 Page** - Custom error page featuring Chamchi image
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18, Vite 5, React Router DOM
-- **Styling**: Custom CSS with responsive design
+- **Frontend**: React 18 with TypeScript, Vite 5, React Router DOM
+- **Styling**: Custom CSS with responsive design, Bootstrap 5.3.0 (birthday page)
 - **Deployment**: GitHub Pages with custom domain
-- **Analytics**: Google Analytics tracking
+- **Analytics**: Google Analytics tracking across all pages
 - **Code Quality**: Prettier with pre-commit hooks via Husky
 
 ## 🚀 Development
@@ -41,28 +45,54 @@ npm run deploy
 ```
 src/
 ├── components/          # Reusable React components
+│   ├── ImageSlideshow.tsx    # Auto-scrolling photo carousel
+│   ├── ImageGrid.tsx         # Grid view with modal support
+│   ├── ImageModal.tsx        # Full-screen image modal
+│   ├── QuizQuestion.tsx      # Interactive quiz questions
+│   ├── ArtworkCard.tsx       # Polaroid-style art cards
+│   └── XmasImagePreloader.tsx # Background image preloading
 ├── pages/              # Page components
-└── App.jsx             # Main app with routing
+│   ├── Home.tsx             # Main navigation page
+│   ├── Xmas2025.tsx         # Christmas photo gallery
+│   ├── SanrioQuiz.tsx       # Trivia game
+│   ├── FirstDates.tsx       # Date arrangement minigame
+│   ├── Crossword.tsx        # Embedded crossword
+│   ├── ChamchiFanArt.tsx    # Art gallery
+│   ├── Birthday.tsx         # Birthday page redirect
+│   └── NotFound.tsx         # 404 error page
+└── App.tsx             # Main app with routing
 
 public/
-├── xmas-2025/          # Christmas page assets
-├── sanrio-quiz/        # Quiz assets and questions
+├── xmas-2025/          # Christmas page assets (24 photos)
+├── sanrio-quiz/        # Quiz questions JSON
+├── first-dates/        # Dates data and static HTML
+├── crossword/          # Static HTML redirect
+├── chamchi-fan-art/    # Static HTML redirect
+├── birthday/           # Birthday assets and 34.html
 └── favicon/            # Site icons
 ```
 
 ## 🎯 Key Components
 
-- **ImageSlideshow** - Auto-scrolling photo carousel with lazy loading
-- **QuizQuestion** - Interactive multiple choice questions with color feedback
-- **FallingIcons** - Animated falling favicon effect
-- **BackButton** - Consistent navigation component
+### Interactive Features
+- **ImageModal** - Click any Christmas photo to view enlarged with filename display
+- **Tap-to-Swap** - First dates minigame supports touch-friendly interactions on all devices
+- **Quiz System** - 69 curated questions with random selection and answer shuffling
+- **Art Gallery** - Hover effects and responsive grid layout for artwork cards
+
+### Navigation & UX
+- **BackButton** - Consistent navigation across all pages
+- **FallingIcons** - Animated falling favicon effect on home page
+- **Right-aligned Emojis** - Clean button layout with emojis positioned on the right
+- **Responsive Design** - Mobile-first approach with touch-friendly interactions
 
 ## 🔧 Routing & SEO
 
-- All routes use trailing slashes for GitHub Pages compatibility
-- Static HTML files for social media previews and SEO
-- Hash-based routing fallback for 404 handling
-- Open Graph and Twitter Card meta tags
+- **Trailing Slash Routes** - All routes use trailing slashes for GitHub Pages compatibility
+- **Static HTML Previews** - Each page has static HTML for social media and SEO
+- **Hash-based Fallback** - Simplified hash routing for 404 handling (`#/route/` format)
+- **Open Graph Tags** - Proper meta tags for social media sharing
+- **Custom 404 Page** - Friendly error page with Chamchi image and navigation
 
 ## 📊 Analytics
 
@@ -70,29 +100,58 @@ Google Analytics (G-YX630D4XCV) tracks:
 - Page views across all sections
 - Route changes in React app
 - Static HTML preview interactions
+- User engagement with interactive features
 
 ## 🚢 Deployment
 
 Automated deployment via GitHub Actions:
 1. Push to `main` branch triggers build
-2. Vite builds optimized production bundle
+2. Vite builds optimized production bundle with TypeScript
 3. peaceiris/actions-gh-pages deploys to `gh-pages` branch
 4. Custom domain: [wolff.sh/andii](https://wolff.sh/andii)
 
-## 🎮 Quiz System
+## 🎮 Interactive Games
 
-The Sanrio Quiz features:
-- 45 curated trivia questions (3 easy, 4 medium, 3 hard per game)
+### Sanrio Quiz
+- 69 curated trivia questions (3 easy, 4 medium, 3 hard per game)
 - Random question selection and answer shuffling
 - Score tracking with personalized completion messages
 - Retry functionality with full reset
 
+### 20 First Dates
+- Chronological arrangement challenge with 20 dates
+- Tap-to-swap interaction on both desktop and mobile
+- Show/hide dates toggle for increased difficulty
+- Real-time scoring and completion detection
+
+### The Crossword
+- Embedded personalized crossword puzzle
+- Custom clues about memories and inside jokes
+- Responsive iframe that scales with screen size
+- Direct integration with crosswordlabs.com
+
+## 🎨 Art Gallery
+
+### Chamchi Fan Art
+- 6 polaroid-style artwork cards
+- 2×3 grid layout on desktop, responsive on mobile
+- Hover effects with rotation and scaling
+- Placeholder images using site favicon
+
 ## 📱 Responsive Design
 
-- Mobile-first CSS approach
-- Responsive grid layouts (2 columns mobile, 4 desktop)
-- Touch-friendly interactive elements
-- Optimized images and lazy loading
+- **Mobile-first CSS** approach with progressive enhancement
+- **Touch-friendly** interactive elements for mobile users
+- **Responsive grids** (2 columns mobile, 4 desktop for photos)
+- **Scalable typography** using clamp() for fluid text sizing
+- **Optimized images** with lazy loading and proper alt text
+
+## 🔄 Performance Features
+
+- **Image Preloading** - First 5 Christmas images preload on home page visit
+- **Lazy Loading** - Images load progressively in slideshows
+- **Code Splitting** - Components loaded on demand
+- **Optimized Builds** - Vite handles bundling and minification
 
 ---
 
