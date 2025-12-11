@@ -13,26 +13,32 @@ function Home() {
             <h1>:3</h1>
             <nav className="menu">
                 <Link to="/xmas-2025/" className="menu-item">
-                    Merry Christmas! 🎄
+                    <span>Merry Christmas!</span>
+                    <span>🎄</span>
                 </Link>
                 <Link to="/sanrio-quiz/" className="menu-item">
-                    Sanrio Quiz 🎀
+                    <span>Sanrio Quiz</span>
+                    <span>🎀</span>
                 </Link>
                 {isLocalhost && (
                     <>
                         <Link to="/crossword/" className="menu-item">
-                            The Crossword 🧩
+                            <span>The Crossword</span>
+                            <span>🧩</span>
                         </Link>
                         <Link to="/first-dates/" className="menu-item">
-                            20 First Dates 💕
+                            <span>20 First Dates</span>
+                            <span>💕</span>
                         </Link>
                         <Link to="/chamchi-fan-art/" className="menu-item">
-                            Chamchi Fan Art 🎨
+                            <span>Chamchi Fan Art</span>
+                            <span>🎨</span>
                         </Link>
                     </>
                 )}
                 <Link to="/birthday/" className="menu-item">
-                    Andii's Birthday 🎉
+                    <span>Andii's Birthday</span>
+                    <span>🎉</span>
                 </Link>
             </nav>
         </div>
