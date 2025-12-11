@@ -37,7 +37,7 @@ function Xmas2025() {
         '/andii/xmas-2025/andii_sesame_ice_cream.jpg',
         '/andii/xmas-2025/andii_pike_place_hat.jpg',
         '/andii/xmas-2025/andii_fourth_of_july.jpg',
-        '/andii/xmas-2025/andii_wine_yelp_smooch.jpg',
+        '/andii/xmas-2025/andii_hotel_bar_smooch.jpg',
         '/andii/xmas-2025/andii_hand_splay.jpg',
         '/andii/xmas-2025/andii_mew.jpg',
         '/andii/xmas-2025/andii_goodbye_party_group.jpg',
