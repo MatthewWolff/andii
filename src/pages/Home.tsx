@@ -3,8 +3,6 @@ import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
 function Home() {
-    const isLocalhost = window.location.hostname === 'localhost'
-
     return (
         <div className="home">
             <XmasImagePreloader />
@@ -26,14 +24,10 @@ function Home() {
                     <span>20 First Dates</span>
                     <span>💕</span>
                 </Link>
-                {isLocalhost && (
-                    <>
-                        <Link to="/chamchi-fan-art/" className="menu-item">
-                            <span>Chamchi Fan Art</span>
-                            <span>🎨</span>
-                        </Link>
-                    </>
-                )}
+                <Link to="/chamchi-fan-art/" className="menu-item">
+                    <span>Chamchi Fan Art</span>
+                    <span>🎨</span>
+                </Link>
                 <Link to="/birthday/" className="menu-item">
                     <span>Andii's Birthday</span>
                     <span>🎉</span>
