@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import FallingIcons from '../components/FallingIcons'
 import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
@@ -9,7 +8,6 @@ function Home() {
     return (
         <div className="home">
             <XmasImagePreloader />
-            <FallingIcons />
             <h1>:3</h1>
             <nav className="menu">
                 <Link to="/xmas-2025/" className="menu-item">

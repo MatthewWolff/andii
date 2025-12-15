@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route, useNavigate, useLocation } from 'react-router-dom'
 import GoogleAnalytics from './components/GoogleAnalytics'
+import FallingIcons from './components/FallingIcons'
 import Home from './pages/Home'
 import Xmas2025 from './pages/Xmas2025'
 import SanrioQuiz from './pages/SanrioQuiz'
@@ -12,6 +13,7 @@ import NotFound from './pages/NotFound'
 
 function App() {
     const navigate = useNavigate()
+    const location = useLocation()
 
     useEffect(() => {
         // Handle 404 redirects with hash
@@ -25,6 +27,7 @@ function App() {
     return (
         <>
             <GoogleAnalytics />
+            <FallingIcons fadeOut={location.pathname !== '/'} />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/xmas-2025/" element={<Xmas2025 />} />

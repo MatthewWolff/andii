@@ -1,14 +1,27 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 interface FallingIconsProps {
     iconSrc?: string
-    spawnRate?: number
+    fadeOut?: boolean
 }
 
 function FallingIcons({
     iconSrc = '/andii/favicon/favicon.ico',
-    spawnRate = 2000,
+    fadeOut = false,
 }: FallingIconsProps) {
+    const [spawnRate, setSpawnRate] = useState(() =>
+        Math.max(500, 2200 - window.innerWidth)
+    )
+
+    useEffect(() => {
+        const updateSpawnRate = () => {
+            setSpawnRate(Math.max(500, 2200 - window.innerWidth))
+        }
+
+        window.addEventListener('resize', updateSpawnRate)
+        return () => window.removeEventListener('resize', updateSpawnRate)
+    }, [])
+
     useEffect(() => {
         const createFallingIcon = () => {
             const icon = document.createElement('img')
@@ -23,9 +36,21 @@ function FallingIcons({
             }, 20000)
         }
 
-        const interval = setInterval(createFallingIcon, spawnRate)
-        return () => clearInterval(interval)
-    }, [iconSrc, spawnRate])
+        if (!fadeOut) {
+            const interval = setInterval(createFallingIcon, spawnRate)
+            return () => clearInterval(interval)
+        }
+    }, [iconSrc, spawnRate, fadeOut])
+
+    useEffect(() => {
+        if (fadeOut) {
+            const icons = document.querySelectorAll('.falling-icon')
+            icons.forEach((icon) => {
+                ;(icon as HTMLElement).style.transition = 'opacity 0.5s'
+                ;(icon as HTMLElement).style.opacity = '0'
+            })
+        }
+    }, [fadeOut])
 
     return null
 }
