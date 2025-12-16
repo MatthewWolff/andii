@@ -1,6 +1,8 @@
 .quiz-container {
     min-height: 100vh;
-    background: linear-gradient(135deg, #ffb3d9, #ff99cc);
+    background-image: url('/andii/sanrio-quiz/hello-kitty.jpg');
+    background-repeat: repeat;
+    background-size: 200px 200px;
     padding: 20px;
     font-family: 'Bubblegum Sans', cursive;
 }
