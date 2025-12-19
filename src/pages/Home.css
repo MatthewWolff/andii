@@ -18,6 +18,25 @@
     z-index: 1;
 }
 
+.title-container {
+    background: #e895b3;
+    border-radius: 20px !important;
+    position: relative;
+    z-index: 2;
+}
+
+.title-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.menu-container {
+    background: #e895b3;
+    border-radius: 20px !important;
+    position: relative;
+    z-index: 2;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
