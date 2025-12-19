@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 
-function BackButton() {
+interface BackButtonProps {
+    to?: string
+}
+
+function BackButton({ to = '/' }: BackButtonProps) {
     return (
-        <Link to="/" className="back-btn">
+        <Link to={to} className="back-btn">
             ← Back
         </Link>
     )
