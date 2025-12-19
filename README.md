@@ -4,12 +4,14 @@ A personal website built with React and Vite, featuring interactive pages and ga
 
 ## 🌟 Features
 
-- **Home Page** - Navigation hub with falling favicon animation and Christmas image preloading
+- **Home Page** - Navigation hub with falling favicon animation, Christmas image preloading, and hidden features
 - **Christmas 2025** - Photo slideshow with grid view toggle, modal viewer, and audio effects
 - **Sanrio Quiz** - Interactive trivia game with 10 questions across 3 difficulty levels
 - **20 First Dates** - Tap-to-swap minigame to arrange dates chronologically
 - **The Crossword** - Embedded personalized crossword puzzle with custom clues
 - **Chamchi Fan Art** - Gallery of 6 artwork cards in polaroid style with 2×3 desktop layout
+- **Slack Portal** - Slack-themed page with poke button and rate limiting
+- **Lip Skin Memorial** - Heaven-themed memorial page with andiizzle image, animated trumpets, and Charlie Kirk audio
 - **Birthday Page** - Static HTML birthday celebration with Bootstrap carousel
 - **404 Page** - Custom error page featuring Chamchi image
 
@@ -50,24 +52,29 @@ src/
 │   ├── ImageModal.tsx        # Full-screen image modal
 │   ├── QuizQuestion.tsx      # Interactive quiz questions
 │   ├── ArtworkCard.tsx       # Polaroid-style art cards
+│   ├── BackButton.tsx        # Parameterized navigation component
 │   └── XmasImagePreloader.tsx # Background image preloading
 ├── pages/              # Page components
-│   ├── Home.tsx             # Main navigation page
+│   ├── Home.tsx             # Main navigation page with hidden Slack Portal button
 │   ├── Xmas2025.tsx         # Christmas photo gallery
 │   ├── SanrioQuiz.tsx       # Trivia game
 │   ├── FirstDates.tsx       # Date arrangement minigame
 │   ├── Crossword.tsx        # Embedded crossword
 │   ├── ChamchiFanArt.tsx    # Art gallery
+│   ├── SlackPortal.tsx      # Slack-themed page
+│   ├── LipSkinMemorial.tsx  # Heaven-themed memorial page
 │   ├── Birthday.tsx         # Birthday page redirect
 │   └── NotFound.tsx         # 404 error page
 └── App.tsx             # Main app with routing
 
 public/
 ├── xmas-2025/          # Christmas page assets (24 photos)
-├── sanrio-quiz/        # Quiz questions JSON
+├── sanrio-quiz/        # Quiz questions JSON and Hello Kitty background
 ├── first-dates/        # Dates data and static HTML
 ├── crossword/          # Static HTML redirect
 ├── chamchi-fan-art/    # Static HTML redirect
+├── slack-portal/       # Slack Portal assets and static HTML
+├── lip-skin-memorial/  # Lip Skin Memorial assets and static HTML
 ├── birthday/           # Birthday assets and 34.html
 └── favicon/            # Site icons
 ```
@@ -79,12 +86,19 @@ public/
 - **Tap-to-Swap** - First dates minigame supports touch-friendly interactions on all devices
 - **Quiz System** - 69 curated questions with random selection and answer shuffling
 - **Art Gallery** - Hover effects and responsive grid layout for artwork cards
+- **Hidden Access System** - Multi-click reveals for pages with rate limiting
 
 ### Navigation & UX
-- **BackButton** - Consistent navigation across all pages
+- **BackButton** - Parameterized navigation component with smart routing based on referrer
 - **FallingIcons** - Animated falling favicon effect on home page
 - **Right-aligned Emojis** - Clean button layout with emojis positioned on the right
 - **Responsive Design** - Mobile-first approach with touch-friendly interactions
+
+### Secret Pages System
+- **Slack Portal Access** - Hidden button reveals on home page
+- **Lip Skin Memorial Access** - Hidden button reveals on Slack Portal
+- **Smart Back Navigation** - Memorial page returns to Slack Portal if accessed from there, otherwise home
+- **Rate Limiting** - 30-second cooldown on Slack webhook calls with visual feedback
 
 ## 🔧 Routing & SEO
 
@@ -100,7 +114,7 @@ Google Analytics (G-YX630D4XCV) tracks:
 - Page views across all sections
 - Route changes in React app
 - Static HTML preview interactions
-- User engagement with interactive features
+- User engagement with interactive features and secret pages
 
 ## 🚢 Deployment
 
@@ -138,6 +152,22 @@ Automated deployment via GitHub Actions:
 - Hover effects with rotation and scaling
 - Placeholder images using site favicon
 
+## 🔐 Secret Pages
+
+### Slack Portal
+- Slack-themed design with authentic UI elements
+- Interactive poke button with Slack webhook integration
+- Rate limiting with 30-second cooldown and visual feedback
+- Base64-encoded webhook URL for basic bot protection
+- Hidden trigger for Lip Skin Memorial access (4 clicks)
+
+### Lip Skin Memorial
+- Heaven-themed background with andiizzle image
+- Animated trumpet emojis with CSS animations
+- Auto-playing Charlie Kirk audio (with user interaction compliance)
+- Smart back button navigation based on referrer
+- Responsive design with mobile-optimized layouts
+
 ## 📱 Responsive Design
 
 - **Mobile-first CSS** approach with progressive enhancement
@@ -152,6 +182,13 @@ Automated deployment via GitHub Actions:
 - **Lazy Loading** - Images load progressively in slideshows
 - **Code Splitting** - Components loaded on demand
 - **Optimized Builds** - Vite handles bundling and minification
+- **Asset Organization** - Page-specific asset folders for better caching
+
+## 🎵 Audio Features
+
+- **Auto-play Compliance** - Audio requires user interaction per browser standards
+- **Loop Functionality** - Background audio loops seamlessly
+- **Error Handling** - Graceful fallback for audio loading failures
 
 ---
 
