@@ -56,25 +56,35 @@ function Xmas2025() {
                     <ImageSlideshow images={images} isActive={!showGrid} />
                     <div className="content">
                         <h1>Merry Christmas! 🎄</h1>
+
                         <p>
-                            Oh, my sweet. It has been a crazy year, and I'm glad
-                            to have gone through it with you. You're one of the
-                            best gifts I could ask for—you're patient, you're
-                            gentle, you communicate, and you stop at nothing to
-                            take care of me and bring me up.
+                            Hello my sweet. This has been an amazing and
+                            terrible year, and I'm really glad to have gone
+                            through it with you. You're one of the best gifts I
+                            could have asked for :') You're patient, you're the
+                            SWEETEST human I've EVER met, and I'm so constantly
+                            impressed by your resilience and diligence. Being
+                            with you just makes me want to be better. I love how
+                            well you communicate about things and how naturally
+                            being an amazing partner comes to you. I'm also
+                            grateful for Chamchi.
                         </p>
+
                         <p>
-                            Whenever we're apart and I think about you and how
-                            incredible you are, my heart aches. You're one of a
-                            kind and I'm lucky to know you. NooOOoOOobody is as
-                            sweet, enduring, and compassionate. Supporting you
-                            is an honor and duty I hope I can fulfill somewhere
-                            near as well as you do.
+                            When we're apart and I'm looking at pictures of you,
+                            I feel such a tug on my heartstrings. You're
+                            beautiful, you're enduring, you're passionate, and
+                            you're just all around lovely. Supporting you and
+                            making you smile is an honor and a duty I can hope I
+                            can fulfill as well you always do.
                         </p>
+
                         <p>
-                            May this Christmas bring us warmth and cheer, and
-                            may the new year ahead be filled with joy and love
-                            :3
+                            I know we're apart this Christmas, but I'm soOOooooO
+                            looking forward to going into the New Year with you
+                            (AND making you drag me and my snowboard out of the
+                            flat zones in Colorado, hehe). Merry Christmas :)
+                            thank you for being you and for being mine.
                         </p>
                     </div>
                 </>
