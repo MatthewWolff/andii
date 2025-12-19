@@ -25,7 +25,7 @@ function SanrioQuiz() {
         document.title = 'Sanrio Quiz 🎀'
         loadQuestions()
         return () => {
-            document.title = "Andii's Site"
+            document.title = 'For Miss Andii'
         }
     }, [])
 

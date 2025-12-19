@@ -17,7 +17,7 @@ function Xmas2025() {
         audio.preload = 'auto'
 
         return () => {
-            document.title = "Andii's Site"
+            document.title = 'For Miss Andii'
         }
     }, [])
     const images = [
