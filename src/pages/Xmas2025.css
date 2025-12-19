@@ -128,25 +128,6 @@
     transform: scale(1.05);
 }
 
-.back-btn {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    background: #f3b2cb;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-family: 'Bubblegum Sans', cursive;
-    font-size: 0.9rem;
-    cursor: pointer;
-    z-index: 10;
-    transition: transform 0.2s;
-}
-
-.back-btn:hover {
-    transform: scale(1.05);
-}
-
 .ough-btn {
     position: fixed;
     bottom: 2rem;

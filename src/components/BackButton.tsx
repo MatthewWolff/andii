@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './BackButton.css'
 
 interface BackButtonProps {
     to?: string
@@ -6,7 +7,7 @@ interface BackButtonProps {
 
 function BackButton({ to = '/' }: BackButtonProps) {
     return (
-        <Link to={to} className="back-btn">
+        <Link to={to} className="back-button">
             ← Back
         </Link>
     )
