@@ -28,6 +28,50 @@
 .title-container h1 {
     font-size: 2.5rem;
     color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.title-container h1::before {
+    content: '✨';
+    position: absolute;
+    left: -30px;
+    animation: sparkle 2s ease-in-out infinite;
+}
+
+.title-container h1::after {
+    content: '✨';
+    position: absolute;
+    right: -30px;
+    animation: sparkle 2s ease-in-out infinite 1s;
+}
+
+@media (max-width: 576px) {
+    .title-container h1::before {
+        left: -20px;
+    }
+
+    .title-container h1::after {
+        right: -20px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@keyframes sparkle {
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.2) rotate(180deg);
+        opacity: 1;
+    }
 }
 
 .menu-container {
