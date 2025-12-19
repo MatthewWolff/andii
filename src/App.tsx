@@ -9,6 +9,7 @@ import Birthday from './pages/Birthday'
 import Crossword from './pages/Crossword'
 import FirstDates from './pages/FirstDates'
 import ChamchiFanArt from './pages/ChamchiFanArt'
+import Secret from './pages/Secret'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/crossword/" element={<Crossword />} />
                 <Route path="/first-dates/" element={<FirstDates />} />
                 <Route path="/chamchi-fan-art/" element={<ChamchiFanArt />} />
+                <Route path="/secret/" element={<Secret />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </>

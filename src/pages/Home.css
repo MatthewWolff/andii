@@ -47,6 +47,49 @@
     animation: sparkle 2s ease-in-out infinite 1s;
 }
 
+.secret-button-container {
+    margin-top: 20px;
+    height: 60px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+    cursor: default;
+}
+
+.secret-button-container.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.secret-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(45deg, #d4af37, #ffd700);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.secret-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    }
+    to {
+        box-shadow: 0 4px 25px rgba(212, 175, 55, 0.6);
+    }
+}
+
 @media (max-width: 576px) {
     .title-container h1::before {
         left: -20px;

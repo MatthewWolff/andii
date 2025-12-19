@@ -1,8 +1,19 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
 function Home() {
+    const [secretClicks, setSecretClicks] = useState(0)
+    const [showSecret, setShowSecret] = useState(false)
+
+    const handleSecretClick = () => {
+        const newClicks = secretClicks + 1
+        setSecretClicks(newClicks)
+        if (newClicks >= 3) {
+            setShowSecret(true)
+        }
+    }
     return (
         <div className="home">
             <XmasImagePreloader />
@@ -58,6 +69,17 @@ function Home() {
                                     </Link>
                                 </nav>
                             </div>
+                        </div>
+                        <div
+                            className={`secret-button-container ${showSecret ? 'revealed' : ''}`}
+                            onClick={handleSecretClick}
+                        >
+                            {showSecret && (
+                                <Link to="/secret/" className="secret-button">
+                                    <span>???</span>
+                                    <span>🔮</span>
+                                </Link>
+                            )}
                         </div>
                     </div>
                 </div>
