@@ -1,15 +1,14 @@
 import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import BackButton from '../components/BackButton'
-import slackLogo from '../assets/slack.svg'
-import './Secret.css'
+import './SlackPortal.css'
 
-function Secret() {
+function SlackPortal() {
     const [isPoking, setIsPoking] = useState(false)
     const [showNotification, setShowNotification] = useState(false)
     const [isRateLimited, setIsRateLimited] = useState(false)
-    const [superSecretClicks, setSuperSecretClicks] = useState(0)
-    const [showSuperSecret, setShowSuperSecret] = useState(false)
+    const [lipSkinMemorialClicks, setLipSkinMemorialClicks] = useState(0)
+    const [showLipSkinMemorial, setShowLipSkinMemorial] = useState(false)
     const lastPokeTime = useRef(0)
 
     const handlePoke = async () => {
@@ -44,26 +43,26 @@ function Secret() {
         }, 1000)
     }
 
-    const handleSuperSecretClick = () => {
-        const newClicks = superSecretClicks + 1
-        setSuperSecretClicks(newClicks)
+    const handleLipSkinMemorialClick = () => {
+        const newClicks = lipSkinMemorialClicks + 1
+        setLipSkinMemorialClicks(newClicks)
         if (newClicks >= 4) {
-            setShowSuperSecret(true)
+            setShowLipSkinMemorial(true)
         }
     }
 
     return (
-        <div className="secret-page slack-theme">
+        <div className="slack-portal-page slack-theme">
             <BackButton />
             <div className="main-content">
                 <div className="slack-container">
                     <div className="slack-header">
                         <img
-                            src={slackLogo}
+                            src="/andii/slack-portal/slack.svg"
                             alt="Slack"
                             className="slack-logo"
                         />
-                        <h1>Secret Slack Portal</h1>
+                        <h1>Slack Portal</h1>
                         <p className="description">
                             Press the button below to send a notification to
                             Baby
@@ -75,7 +74,7 @@ function Secret() {
                             className={`poke-button ${isPoking ? 'poking' : ''}`}
                             onClick={handlePoke}
                             disabled={
-                                isPoking || isRateLimited || showSuperSecret
+                                isPoking || isRateLimited || showLipSkinMemorial
                             }
                         >
                             {isPoking
@@ -100,13 +99,14 @@ function Secret() {
                 </div>
 
                 <div
-                    className="super-secret-trigger"
-                    onClick={handleSuperSecretClick}
+                    className="lip-skin-memorial-trigger"
+                    onClick={handleLipSkinMemorialClick}
                 >
-                    {showSuperSecret && (
+                    {showLipSkinMemorial && (
                         <Link
-                            to="/super-secret/"
-                            className="super-secret-button bouncing"
+                            to="/lip-skin-memorial/"
+                            state={{ from: '/slack-portal/' }}
+                            className="lip-skin-memorial-button bouncing"
                         >
                             <span>???</span>
                             <span>🎪</span>
@@ -118,4 +118,4 @@ function Secret() {
     )
 }
 
-export default Secret
+export default SlackPortal

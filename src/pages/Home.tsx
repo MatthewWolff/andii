@@ -4,14 +4,14 @@ import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
 function Home() {
-    const [secretClicks, setSecretClicks] = useState(0)
-    const [showSecret, setShowSecret] = useState(false)
+    const [slackPortalClicks, setSlackPortalClicks] = useState(0)
+    const [showSlackPortal, setShowSlackPortal] = useState(false)
 
-    const handleSecretClick = () => {
-        const newClicks = secretClicks + 1
-        setSecretClicks(newClicks)
+    const handleSlackPortalClick = () => {
+        const newClicks = slackPortalClicks + 1
+        setSlackPortalClicks(newClicks)
         if (newClicks >= 3) {
-            setShowSecret(true)
+            setShowSlackPortal(true)
         }
     }
     return (
@@ -71,11 +71,14 @@ function Home() {
                             </div>
                         </div>
                         <div
-                            className={`secret-button-container ${showSecret ? 'revealed' : ''}`}
-                            onClick={handleSecretClick}
+                            className={`slack-portal-button-container ${showSlackPortal ? 'revealed' : ''}`}
+                            onClick={handleSlackPortalClick}
                         >
-                            {showSecret && (
-                                <Link to="/secret/" className="secret-button">
+                            {showSlackPortal && (
+                                <Link
+                                    to="/slack-portal/"
+                                    className="slack-portal-button"
+                                >
                                     <span>???</span>
                                     <span>🔮</span>
                                 </Link>

@@ -47,7 +47,7 @@
     animation: sparkle 2s ease-in-out infinite 1s;
 }
 
-.secret-button-container {
+.slack-portal-button-container {
     margin-top: 20px;
     height: 60px;
     opacity: 0;
@@ -56,12 +56,12 @@
     cursor: default;
 }
 
-.secret-button-container.revealed {
+.slack-portal-button-container.revealed {
     opacity: 1;
     transform: translateY(0);
 }
 
-.secret-button {
+.slack-portal-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@
     animation: glow 2s ease-in-out infinite alternate;
 }
 
-.secret-button:hover {
+.slack-portal-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
 }

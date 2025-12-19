@@ -9,8 +9,8 @@ import Birthday from './pages/Birthday'
 import Crossword from './pages/Crossword'
 import FirstDates from './pages/FirstDates'
 import ChamchiFanArt from './pages/ChamchiFanArt'
-import Secret from './pages/Secret'
-import SuperSecret from './pages/SuperSecret'
+import SlackPortal from './pages/SlackPortal'
+import LipSkinMemorial from './pages/LipSkinMemorial'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -38,8 +38,11 @@ function App() {
                 <Route path="/crossword/" element={<Crossword />} />
                 <Route path="/first-dates/" element={<FirstDates />} />
                 <Route path="/chamchi-fan-art/" element={<ChamchiFanArt />} />
-                <Route path="/secret/" element={<Secret />} />
-                <Route path="/super-secret/" element={<SuperSecret />} />
+                <Route path="/slack-portal/" element={<SlackPortal />} />
+                <Route
+                    path="/lip-skin-memorial/"
+                    element={<LipSkinMemorial />}
+                />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </>

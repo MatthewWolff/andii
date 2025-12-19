@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-.secret-page.slack-theme {
+.slack-portal-page.slack-theme {
     min-height: 100vh;
     background: #4a154b;
     display: flex;
@@ -126,7 +126,7 @@
     }
 }
 
-.super-secret-trigger {
+.lip-skin-memorial-trigger {
     margin-top: 20px;
     width: 120px;
     height: 60px;
@@ -137,7 +137,7 @@
     margin-right: auto;
 }
 
-.super-secret-button {
+.lip-skin-memorial-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,7 +151,7 @@
     position: absolute;
 }
 
-.super-secret-button.bouncing {
+.lip-skin-memorial-button.bouncing {
     animation: bounce-around 2s infinite linear;
 }
 
