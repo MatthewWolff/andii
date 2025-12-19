@@ -1,8 +1,15 @@
+import { useEffect } from 'react'
 import BackButton from '../components/BackButton'
 import ArtworkCard from '../components/ArtworkCard'
 import './ChamchiFanArt.css'
 
 function ChamchiFanArt() {
+    useEffect(() => {
+        document.title = 'Chamchi Fan Art 🎨'
+        return () => {
+            document.title = 'For Miss Andii'
+        }
+    }, [])
     const artworks = [
         {
             imageSrc: '/andii/chamchi-fan-art/nanoartistic.jpg',

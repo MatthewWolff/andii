@@ -8,9 +8,13 @@ function LipSkinMemorial() {
     const location = useLocation()
 
     useEffect(() => {
+        document.title = 'Lip Skin Memorial 👼'
         // Play audio when component mounts
         if (audioRef.current) {
             audioRef.current.play().catch(console.error)
+        }
+        return () => {
+            document.title = 'For Miss Andii'
         }
     }, [])
 

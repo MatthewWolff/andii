@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import BackButton from '../components/BackButton'
 import './SlackPortal.css'
@@ -10,6 +10,13 @@ function SlackPortal() {
     const [lipSkinMemorialClicks, setLipSkinMemorialClicks] = useState(0)
     const [showLipSkinMemorial, setShowLipSkinMemorial] = useState(false)
     const lastPokeTime = useRef(0)
+
+    useEffect(() => {
+        document.title = 'Slack Portal 💬'
+        return () => {
+            document.title = 'For Miss Andii'
+        }
+    }, [])
 
     const handlePoke = async () => {
         const now = Date.now()

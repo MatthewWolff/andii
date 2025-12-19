@@ -1,7 +1,14 @@
+import { useEffect } from 'react'
 import BackButton from '../components/BackButton'
 import './Crossword.css'
 
 function Crossword() {
+    useEffect(() => {
+        document.title = 'The Crossword 🧩'
+        return () => {
+            document.title = 'For Miss Andii'
+        }
+    }, [])
     return (
         <div className="crossword-container">
             <BackButton />

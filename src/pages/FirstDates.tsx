@@ -17,7 +17,11 @@ function FirstDates() {
     const [showDates, setShowDates] = useState(false)
 
     useEffect(() => {
+        document.title = '20 First Dates 💕'
         loadDates()
+        return () => {
+            document.title = 'For Miss Andii'
+        }
     }, [])
 
     const loadDates = async () => {

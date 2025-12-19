@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import XmasImagePreloader from '../components/XmasImagePreloader'
 import './Home.css'
 
 function Home() {
     const [slackPortalClicks, setSlackPortalClicks] = useState(0)
     const [showSlackPortal, setShowSlackPortal] = useState(false)
+
+    useEffect(() => {
+        document.title = 'For Miss Andii'
+    }, [])
 
     const handleSlackPortalClick = () => {
         const newClicks = slackPortalClicks + 1
