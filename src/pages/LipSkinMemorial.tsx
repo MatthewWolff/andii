@@ -34,6 +34,7 @@ function LipSkinMemorial() {
     return (
         <div className="lip-skin-memorial-page">
             <BackButton to={getBackDestination()} />
+            <h1 className="memorial-title">RIP Andii's lip skin</h1>
             <audio ref={audioRef} loop>
                 <source
                     src="/andii/lip-skin-memorial/we-are-charlie-kirk.mp3"
