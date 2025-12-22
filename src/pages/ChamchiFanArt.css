@@ -40,3 +40,15 @@
         grid-template-rows: repeat(2, 1fr);
     }
 }
+
+/* Hide invisible spacer on mobile, show on desktop */
+.invisible-spacer {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .invisible-spacer {
+        display: block;
+        visibility: hidden;
+    }
+}
