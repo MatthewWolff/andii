@@ -1,22 +1,102 @@
 [
-  { "activity": "Drinks - Needle & Thread", "date": "2/5" },
-  { "activity": "Thunderdome Run-in!!!", "date": "2/8" },
-  { "activity": "Jazz Night with Joshy", "date": "2/12" },
-  { "activity": "Valentine's @ Zaika", "date": "2/14" },
-  { "activity": "Hanging out before Matthew's Whistler trip", "date": "2/20" },
-  { "activity": "Bringing Andii flowers and talking outside (she had a student sleeping over)", "date": "2/23" },
-  { "activity": "Art Walk in Pioneer Square with wine ", "date": "3/6" },
-  { "activity": "Making Thit Kho :3", "date": "3/10" },
-  { "activity": "LSR/CITY and YAPPPPP", "date": "3/12" },
-  { "activity": "Thai food + anime (Chamchi stole crying tiger)", "date": "3/14" },
-  { "activity": "Steven's pass skiing + napping", "date": "3/15" },
-  { "activity": "Cheese Room & Doctor's Office", "date": "3/23" },
-  { "activity": "Helping Andii pack for her NYC trip", "date": "3/27" },
-  { "activity": "Bruce Lee cemetery cherry blossoms", "date": "4/1" },
-  { "activity": "Taking Chamchi to see the Quad Blossoms", "date": "4/2" },
-  { "activity": "Andii returned from airport + we had a sleepover (she missed Naruto Symphony)", "date": "4/6" },
-  { "activity": "Work-day date + Zuri birthday dinner (thai)", "date": "4/7" },
-  { "activity": "Post Alley pizza + cookies", "date": "4/8" },
-  { "activity": "Grilled Cheese + Gnocchi ", "date": "4/19" },
-  { "activity": "Lounging at Cal Anderson with Andii + Vy", "date": "4/24" }
+  {
+    "activity": "Drinks - Needle & Thread",
+    "date": "2/5",
+    "details": "Our first date \uD83E\uDEE3"
+  },
+  {
+    "activity": "Thunderdome Run-in!!!",
+    "date": "2/8",
+    "details": "I looked up while trying to find my friend and you were simply there!"
+  },
+  {
+    "activity": "Jazz Night with Joshy",
+    "date": "2/12",
+    "details": "You lived so close and had never been to Jazz night before, so we went and you met Mariana and Zac"
+  },
+  {
+    "activity": "Valentine's @ Zaika",
+    "date": "2/14",
+    "details": "Our first Valentine's Day :) I didn't have much of an appetite but we had their special Valentine's menu"
+  },
+  {
+    "activity": "Hanging out before Matthew's Whistler trip",
+    "date": "2/20",
+    "details": "I was leaving for a weekend in Whistler (my first time snowboarding)"
+  },
+  {
+    "activity": "Bringing Andii flowers and talking outside (she had a student sleeping over)",
+    "date": "2/23",
+    "details": "I had gotten back soooo late from Whistler but I wanted to stop by ;("
+  },
+  {
+    "activity": "Art Walk in Pioneer Square with wine ",
+    "date": "3/6",
+    "details": ""
+  },
+  {
+    "activity": "Making Thit Kho :3",
+    "date": "3/10",
+    "details": ""
+  },
+  {
+    "activity": "LSR/CITY and YAPPPPP",
+    "date": "3/12",
+    "details": ""
+  },
+  {
+    "activity": "Thai food + anime (Chamchi stole crying tiger)",
+    "date": "3/14",
+    "details": ""
+  },
+  {
+    "activity": "Steven's pass skiing + napping",
+    "date": "3/15",
+    "details": ""
+  },
+  {
+    "activity": "Cheese Room & Doctor's Office",
+    "date": "3/23",
+    "details": ""
+  },
+  {
+    "activity": "Helping Andii pack for her NYC trip",
+    "date": "3/27",
+    "details": ""
+  },
+  {
+    "activity": "Bruce Lee cemetery cherry blossoms",
+    "date": "4/1",
+    "details": ""
+  },
+  {
+    "activity": "Taking Chamchi to see the Quad Blossoms",
+    "date": "4/2",
+    "details": ""
+  },
+  {
+    "activity": "Andii returned from airport + we had a sleepover (she missed Naruto Symphony)",
+    "date": "4/6",
+    "details": ""
+  },
+  {
+    "activity": "Work-day date + Zuri birthday dinner (thai)",
+    "date": "4/7",
+    "details": ""
+  },
+  {
+    "activity": "Post Alley pizza + cookies",
+    "date": "4/8",
+    "details": ""
+  },
+  {
+    "activity": "Grilled Cheese + Gnocchi ",
+    "date": "4/19",
+    "details": ""
+  },
+  {
+    "activity": "Lounging at Cal Anderson with Andii + Vy",
+    "date": "4/24",
+    "details": ""
+  }
 ]

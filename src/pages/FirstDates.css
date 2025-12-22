@@ -82,12 +82,51 @@
     border: 2px solid #f3b2cb;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
     user-select: none;
     transform: scale(1);
     transition: all 0.2s ease;
     min-height: 60px;
+}
+
+.first-dates-card-content {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.first-dates-card-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.first-dates-details-button {
+    background: none;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+    color: #666;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.first-dates-details-button:hover {
+    background-color: rgba(243, 178, 203, 0.2);
+}
+
+.first-dates-card-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #555;
+    font-style: italic;
+    border-left: 3px solid #f3b2cb;
 }
 
 .first-dates-card-selected {
@@ -97,7 +136,6 @@
 }
 
 .first-dates-card-activity {
-    flex: 1;
     color: #333;
     font-size: 1.1rem;
     font-weight: bold;
