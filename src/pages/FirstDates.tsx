@@ -5,6 +5,7 @@ import './FirstDates.css'
 interface DateEntry {
     activity: string
     date: string
+    details: string
 }
 
 function FirstDates() {
@@ -15,6 +16,7 @@ function FirstDates() {
     const [draggedIndex, setDraggedIndex] = useState<number | null>(null)
     const [touchUsed, setTouchUsed] = useState(false)
     const [showDates, setShowDates] = useState(false)
+    const [showingDetails, setShowingDetails] = useState<string | null>(null)
 
     useEffect(() => {
         document.title = '20 First Dates 💕'
@@ -62,6 +64,12 @@ function FirstDates() {
     const handleTouchStart = (index: number) => {
         setTouchUsed(true)
         handleCardClick(index)
+    }
+
+    const toggleDetails = (index: number, e: React.MouseEvent) => {
+        e.stopPropagation()
+        const activity = shuffledDates[index].activity
+        setShowingDetails(showingDetails === activity ? null : activity)
     }
 
     const handleCardClick = (targetIndex: number) => {
@@ -159,14 +167,31 @@ function FirstDates() {
                             moveDate(fromIndex, index)
                         }}
                     >
-                        <div className="first-dates-card-activity">
-                            {date.activity}
-                        </div>
-                        {showDates && (
-                            <div className="first-dates-card-date">
-                                {date.date}
+                        <div className="first-dates-card-content">
+                            <div className="first-dates-card-activity">
+                                {date.activity}
                             </div>
-                        )}
+                            {showingDetails === date.activity && (
+                                <div className="first-dates-card-details">
+                                    {date.details}
+                                </div>
+                            )}
+                        </div>
+                        <div className="first-dates-card-right">
+                            <button
+                                className="first-dates-details-button"
+                                onClick={(e) => toggleDetails(index, e)}
+                            >
+                                {showingDetails === date.activity
+                                    ? 'hide'
+                                    : 'details'}
+                            </button>
+                            {showDates && (
+                                <div className="first-dates-card-date">
+                                    {date.date}
+                                </div>
+                            )}
+                        </div>
                     </div>
                 ))}
             </div>
