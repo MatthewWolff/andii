@@ -24,9 +24,9 @@ function ChamchiFanArt() {
             media: 'Digital Art',
         },
         {
-            imageSrc: '/andii/chamchi-fan-art/izamkurniawan1.jpg',
-            title: 'Chamchi Study 1',
-            artist: 'izamkurniawan',
+            imageSrc: '/andii/chamchi-fan-art/kmalviya8399.jpg',
+            title: 'Behold: a noodle',
+            artist: 'kmalviya8399',
             media: 'Digital Art',
         },
         {
@@ -36,9 +36,9 @@ function ChamchiFanArt() {
             media: 'Digital Art',
         },
         {
-            imageSrc: '/andii/chamchi-fan-art/kmalviya8399.jpg',
-            title: 'Behold: a noodle',
-            artist: 'kmalviya8399',
+            imageSrc: '/andii/chamchi-fan-art/izamkurniawan1.jpg',
+            title: 'Chamchi Study 1',
+            artist: 'izamkurniawan',
             media: 'Digital Art',
         },
         {
