@@ -47,6 +47,12 @@ function ChamchiFanArt() {
             artist: 'miphz94',
             media: 'Digital Art',
         },
+        {
+            imageSrc: '/andii/chamchi-fan-art/izamkurniawan2.jpg',
+            title: 'Chamchi Study 2',
+            artist: 'izamkurniawan',
+            media: 'Digital Art',
+        },
     ]
 
     return (
