@@ -25,7 +25,7 @@ function ChamchiFanArt() {
         },
         {
             imageSrc: '/andii/chamchi-fan-art/kmalviya8399.jpg',
-            title: 'Behold: a noodle',
+            title: 'Behold: A Noodle',
             artist: 'kmalviya8399',
             media: 'Digital Art',
         },
@@ -46,6 +46,13 @@ function ChamchiFanArt() {
             title: 'Dinner Time',
             artist: 'miphz94',
             media: 'Digital Art',
+        },
+        {
+            imageSrc: '',
+            title: '',
+            artist: '',
+            media: '',
+            invisible: true,
         },
         {
             imageSrc: '/andii/chamchi-fan-art/izamkurniawan2.jpg',
@@ -75,6 +82,7 @@ function ChamchiFanArt() {
                         title={artwork.title}
                         artist={artwork.artist}
                         media={artwork.media}
+                        invisible={artwork.invisible}
                     />
                 ))}
             </div>

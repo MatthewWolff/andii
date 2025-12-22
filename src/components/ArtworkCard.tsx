@@ -3,9 +3,24 @@ interface ArtworkCardProps {
     title: string
     artist: string
     media: string
+    invisible?: boolean
 }
 
-function ArtworkCard({ imageSrc, title, artist, media }: ArtworkCardProps) {
+function ArtworkCard({
+    imageSrc,
+    title,
+    artist,
+    media,
+    invisible = false,
+}: ArtworkCardProps) {
+    if (invisible) {
+        return (
+            <div className="invisible-spacer">
+                {/* Invisible spacer for desktop layout */}
+            </div>
+        )
+    }
+
     return (
         <div
             style={{
