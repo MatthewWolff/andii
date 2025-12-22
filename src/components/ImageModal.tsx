@@ -81,8 +81,10 @@ function ImageModal({ imageSrc, isOpen, onClose }: ImageModalProps) {
                     src={imageSrc}
                     alt="Enlarged view"
                     style={{
-                        maxWidth: '100%',
-                        maxHeight: '100%',
+                        maxWidth: '90vw',
+                        maxHeight: '90vh',
+                        width: 'auto',
+                        height: 'auto',
                         objectFit: 'contain',
                         borderRadius: '8px',
                     }}
