@@ -26,7 +26,7 @@ function Xmas2025() {
         '/andii/xmas-2025/andii_fvded_bliss.jpg',
         '/andii/xmas-2025/andii_vice.jpg',
         '/andii/xmas-2025/andii_belmont_lounge_cute.jpg',
-        '/andii/xmas-2025/andii_valentine_gifts.jpg',
+        '/andii/xmas-2025/andii_birthday_gifts.jpg',
         '/andii/xmas-2025/andii_portland.jpg',
         '/andii/xmas-2025/andii_parking_lot_flowers.jpg',
         '/andii/xmas-2025/andii_wine_yelp_pout.jpg',
