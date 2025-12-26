@@ -75,6 +75,14 @@
     transform: translateY(-2px);
 }
 
+.answer-button:focus {
+    outline: none;
+}
+
+.answer-button:active {
+    transform: translateY(0);
+}
+
 .answer-button.correct {
     background: #d4edda;
     border-color: #28a745;

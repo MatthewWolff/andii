@@ -29,7 +29,7 @@ function QuizQuestion({
             <div className="answers-grid">
                 {answers.map((answer, index) => (
                     <button
-                        key={index}
+                        key={`${questionNumber}-${index}`}
                         className={`answer-button ${
                             showResult
                                 ? answer === correctAnswer
