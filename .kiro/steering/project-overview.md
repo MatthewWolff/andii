@@ -25,6 +25,7 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
     - `FirstDates.tsx` - Drag-and-drop minigame to arrange 20 first dates
     - `Crossword.tsx` - Embedded crossword puzzle with personalized clues
     - `ChamchiFanArt.tsx` - Art gallery with 6 polaroid-style cards
+    - `Bookmarks.tsx` - Curated links collection with custom icons
     - `SlackPortal.tsx` - Slack-themed page with poke button and webhook
     - `LipSkinMemorial.tsx` - Heaven-themed memorial page with audio and animations
     - `Birthday.tsx` - Redirects to static HTML birthday page
@@ -43,6 +44,7 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
   - `first-dates/` - Dates JSON file and static HTML
   - `crossword/` - Static HTML redirect
   - `chamchi-fan-art/` - Static HTML redirect
+  - `bookmarks/` - Bookmarks assets and static HTML
   - `slack-portal/` - Slack Portal assets and static HTML
   - `lip-skin-memorial/` - Lip Skin Memorial assets and static HTML
   - `birthday/` - Birthday page assets and 34.html
@@ -55,6 +57,7 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
 - **20 First Dates** - Interactive minigame to arrange dates chronologically
 - **The Crossword** - Embedded personalized crossword puzzle
 - **Chamchi Fan Art** - Gallery of 6 artwork cards in 2×3 desktop layout
+- **Bookmarks** - Curated links collection with custom icons
 - **Slack Portal** - Slack-themed page with poke button and rate limiting
 - **Lip Skin Memorial** - Heaven-themed memorial with audio and animated trumpets
 - **Birthday** - Static HTML page with Bootstrap carousel of Andii facts

@@ -10,6 +10,7 @@ A personal website built with React and Vite, featuring interactive pages and ga
 - **20 First Dates** - Tap-to-swap minigame to arrange dates chronologically
 - **The Crossword** - Embedded personalized crossword puzzle with custom clues
 - **Chamchi Fan Art** - Gallery of 6 artwork cards in polaroid style with 2×3 desktop layout
+- **Bookmarks** - Curated collection of links to things shared with Andii, featuring custom icons
 - **Slack Portal** - Slack-themed page with poke button and rate limiting
 - **Lip Skin Memorial** - Heaven-themed memorial page with andiizzle image, animated trumpets, and Charlie Kirk audio
 - **Birthday Page** - Static HTML birthday celebration with Bootstrap carousel
@@ -61,6 +62,7 @@ src/
 │   ├── FirstDates.tsx       # Date arrangement minigame
 │   ├── Crossword.tsx        # Embedded crossword
 │   ├── ChamchiFanArt.tsx    # Art gallery
+│   ├── Bookmarks.tsx        # Curated links collection
 │   ├── SlackPortal.tsx      # Slack-themed page
 │   ├── LipSkinMemorial.tsx  # Heaven-themed memorial page
 │   ├── Birthday.tsx         # Birthday page redirect
@@ -73,6 +75,7 @@ public/
 ├── first-dates/        # Dates data and static HTML
 ├── crossword/          # Static HTML redirect
 ├── chamchi-fan-art/    # Static HTML redirect
+├── bookmarks/          # Bookmarks assets and static HTML
 ├── slack-portal/       # Slack Portal assets and static HTML
 ├── lip-skin-memorial/  # Lip Skin Memorial assets and static HTML
 ├── birthday/           # Birthday assets and 34.html

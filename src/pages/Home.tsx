@@ -71,6 +71,13 @@ function Home() {
                                         <span>Andii's Birthday</span>
                                         <span>🎉</span>
                                     </Link>
+                                    <Link
+                                        to="/bookmarks/"
+                                        className="menu-item"
+                                    >
+                                        <span>Bookmarks</span>
+                                        <span>🔖</span>
+                                    </Link>
                                 </nav>
                             </div>
                         </div>

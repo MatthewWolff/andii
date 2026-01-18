@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.bookmarks {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ccccff 0%, #e6e6ff 100%);
+    padding: 2rem 1rem;
+}
+
+.bookmarks .title-container h1 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.bookmarks-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+}
+
+.bookmark-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookmark-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bookmark-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.bookmark-content {
+    flex: 1;
+}
+
+.bookmark-content h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.bookmark-content p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+@media (min-width: 768px) {
+    .bookmarks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

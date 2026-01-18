@@ -11,6 +11,7 @@ import FirstDates from './pages/FirstDates'
 import ChamchiFanArt from './pages/ChamchiFanArt'
 import SlackPortal from './pages/SlackPortal'
 import LipSkinMemorial from './pages/LipSkinMemorial'
+import Bookmarks from './pages/Bookmarks'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/crossword/" element={<Crossword />} />
                 <Route path="/first-dates/" element={<FirstDates />} />
                 <Route path="/chamchi-fan-art/" element={<ChamchiFanArt />} />
+                <Route path="/bookmarks/" element={<Bookmarks />} />
                 <Route path="/slack-portal/" element={<SlackPortal />} />
                 <Route
                     path="/lip-skin-memorial/"
