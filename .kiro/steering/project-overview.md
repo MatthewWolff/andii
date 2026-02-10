@@ -20,6 +20,9 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
   - `App.tsx` - Main app with routing and 404 handling
   - `pages/` - Page components
     - `Home.tsx` - Menu page with navigation and Christmas image preloading
+    - `Valentine2026.tsx` - Valentine's Day interactive page with Yes/No buttons
+    - `Valentine2026Yes.tsx` - Valentine celebration page with GIF and audio
+    - `Valentine2026No.tsx` - Valentine no page with sad Chamchi
     - `Xmas2025.tsx` - Christmas page with slideshow and grid view toggle
     - `SanrioQuiz.tsx` - Interactive trivia game with 69 questions
     - `FirstDates.tsx` - Drag-and-drop minigame to arrange 20 first dates
@@ -39,6 +42,7 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
     - `BackButton.tsx` - Parameterized navigation component
     - `XmasImagePreloader.tsx` - Background image preloading
 - `public/` - Static assets and HTML files
+  - `valentine-2026/` - Valentine's Day assets and static HTML
   - `xmas-2025/` - Christmas slideshow images (24 photos)
   - `sanrio-quiz/` - Quiz questions JSON file and Hello Kitty background
   - `first-dates/` - Dates JSON file and static HTML
@@ -51,7 +55,8 @@ Personal website for Andii with multiple interactive pages, hosted at wolff.sh
   - `favicon/` - Site icons
 
 ## Pages
-- **Home** - Purple background with pink accent buttons, right-aligned emojis, hidden features
+- **Home** - Purple background with pink accent buttons, right-aligned emojis, hidden features, pulsing Valentine button
+- **Valentine's Day 2026** - Interactive page with growing Yes button, escaping No button, floating Chamchi image
 - **Christmas 2025** - Scrolling slideshow with grid view and modal image viewer
 - **Sanrio Quiz** - 10-question trivia game with difficulty levels
 - **20 First Dates** - Interactive minigame to arrange dates chronologically

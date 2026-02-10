@@ -5,6 +5,7 @@ A personal website built with React and Vite, featuring interactive pages and ga
 ## 🌟 Features
 
 - **Home Page** - Navigation hub with falling favicon animation, Christmas image preloading, and hidden features
+- **Valentine's Day 2026** - Interactive Valentine page with growing Yes button, escaping No button, and celebration page with audio
 - **Christmas 2025** - Photo slideshow with grid view toggle, modal viewer, and audio effects
 - **Sanrio Quiz** - Interactive trivia game with 10 questions across 3 difficulty levels
 - **20 First Dates** - Tap-to-swap minigame to arrange dates chronologically
@@ -57,6 +58,9 @@ src/
 │   └── XmasImagePreloader.tsx # Background image preloading
 ├── pages/              # Page components
 │   ├── Home.tsx             # Main navigation page with hidden Slack Portal button
+│   ├── Valentine2026.tsx    # Valentine's Day interactive page
+│   ├── Valentine2026Yes.tsx # Valentine celebration page
+│   ├── Valentine2026No.tsx  # Valentine no page
 │   ├── Xmas2025.tsx         # Christmas photo gallery
 │   ├── SanrioQuiz.tsx       # Trivia game
 │   ├── FirstDates.tsx       # Date arrangement minigame
@@ -70,6 +74,7 @@ src/
 └── App.tsx             # Main app with routing
 
 public/
+├── valentine-2026/     # Valentine's Day assets and static HTML
 ├── xmas-2025/          # Christmas page assets (24 photos)
 ├── sanrio-quiz/        # Quiz questions JSON and Hello Kitty background
 ├── first-dates/        # Dates data and static HTML
