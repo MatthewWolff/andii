@@ -33,6 +33,13 @@ function Home() {
                             <div className="card-body p-4">
                                 <nav className="menu">
                                     <Link
+                                        to="/valentine-2026/"
+                                        className="menu-item valentine-item"
+                                    >
+                                        <span>Valentine's Day 2026</span>
+                                        <span>💝</span>
+                                    </Link>
+                                    <Link
                                         to="/xmas-2025/"
                                         className="menu-item"
                                     >

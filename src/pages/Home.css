@@ -170,3 +170,25 @@
         transform: translateY(calc(100vh + 50px));
     }
 }
+
+.valentine-item {
+    background: #ff8fc7 !important;
+    animation: pulse 2s ease-in-out infinite;
+    box-shadow: 0 0 15px #ffcccc !important;
+}
+
+.valentine-item:hover {
+    background: #ffa3d1 !important;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px #ff0000 !important;
+    }
+    50% {
+        transform: scale(1.03);
+        box-shadow: 0 0 30px #ff0000 !important;
+    }
+}

@@ -12,6 +12,9 @@ import ChamchiFanArt from './pages/ChamchiFanArt'
 import SlackPortal from './pages/SlackPortal'
 import LipSkinMemorial from './pages/LipSkinMemorial'
 import Bookmarks from './pages/Bookmarks'
+import Valentine2026 from './pages/Valentine2026'
+import Valentine2026Yes from './pages/Valentine2026Yes'
+import Valentine2026No from './pages/Valentine2026No'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -44,6 +47,15 @@ function App() {
                 <Route
                     path="/lip-skin-memorial/"
                     element={<LipSkinMemorial />}
+                />
+                <Route path="/valentine-2026/" element={<Valentine2026 />} />
+                <Route
+                    path="/valentine-2026/yes/"
+                    element={<Valentine2026Yes />}
+                />
+                <Route
+                    path="/valentine-2026/no/"
+                    element={<Valentine2026No />}
                 />
                 <Route path="*" element={<NotFound />} />
             </Routes>
