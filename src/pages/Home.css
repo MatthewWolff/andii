@@ -93,6 +93,10 @@
 }
 
 @media (max-width: 576px) {
+    .title-container {
+        margin-top: 20px;
+    }
+
     .title-container h1::before {
         left: -20px;
     }
