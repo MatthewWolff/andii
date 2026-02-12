@@ -50,9 +50,26 @@ const Valentine2026Yes: React.FC = () => {
     useEffect(() => {
         document.title = 'Yay! 🎉💕'
 
-        if (audioRef.current) {
-            audioRef.current.play().catch(console.error)
+        // Try to play audio
+        const playAudio = () => {
+            if (audioRef.current) {
+                audioRef.current.play().catch(() => {
+                    // If autoplay fails, play on first user interaction
+                    const handleInteraction = () => {
+                        audioRef.current?.play()
+                        document.removeEventListener('click', handleInteraction)
+                        document.removeEventListener(
+                            'touchstart',
+                            handleInteraction
+                        )
+                    }
+                    document.addEventListener('click', handleInteraction)
+                    document.addEventListener('touchstart', handleInteraction)
+                })
+            }
         }
+
+        playAudio()
     }, [])
 
     const randomGif = useMemo(() => {
