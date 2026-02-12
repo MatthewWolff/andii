@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect } from 'react'
+import React, { useMemo, useEffect, useRef } from 'react'
 import BackButton from '../components/BackButton'
 
 const CELEBRATION_GIFS = [
@@ -45,18 +45,13 @@ const styles = {
 }
 
 const Valentine2026Yes: React.FC = () => {
+    const audioRef = useRef<HTMLAudioElement>(null)
+
     useEffect(() => {
         document.title = 'Yay! 🎉💕'
 
-        const audio = new Audio('/andii/valentine-2026/yes/superman_audio.mp4')
-        audio.loop = true
-        audio
-            .play()
-            .catch((err) => console.log('Audio autoplay prevented:', err))
-
-        return () => {
-            audio.pause()
-            audio.currentTime = 0
+        if (audioRef.current) {
+            audioRef.current.play().catch(console.error)
         }
     }, [])
 
@@ -69,6 +64,12 @@ const Valentine2026Yes: React.FC = () => {
     return (
         <div style={styles.container}>
             <BackButton to="/valentine-2026/" />
+            <audio ref={audioRef} loop>
+                <source
+                    src="/andii/valentine-2026/yes/superman_audio.mp4"
+                    type="audio/mp4"
+                />
+            </audio>
             <div style={styles.card}>
                 <h1 style={styles.title}>Yay!</h1>
                 <img src={randomGif} alt="Celebration" style={styles.gif} />
