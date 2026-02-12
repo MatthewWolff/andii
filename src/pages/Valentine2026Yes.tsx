@@ -70,6 +70,14 @@ const Valentine2026Yes: React.FC = () => {
         }
 
         playAudio()
+
+        // Cleanup: stop audio when component unmounts
+        return () => {
+            if (audioRef.current) {
+                audioRef.current.pause()
+                audioRef.current.currentTime = 0
+            }
+        }
     }, [])
 
     const randomGif = useMemo(() => {
