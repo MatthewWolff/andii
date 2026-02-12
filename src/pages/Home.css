@@ -49,6 +49,7 @@
 
 .slack-portal-button-container {
     margin-top: 20px;
+    margin-bottom: 60px;
     height: 60px;
     opacity: 0;
     transform: translateY(20px);
